@@ -1,53 +1,70 @@
 <html>
-    <head>
-        <title>Grade Ciência da computação</title>
-        <script src="grade.js"></script>
-        <link rel="stylesheet" href="grade.css">
-    </head>
-    <body>
-        <div>
+  <head>
+    <title>Grade Ciência da computação</title>
+    <script src="grade.js"></script>
+    <link rel="stylesheet" href="grade.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="./imagens/logo2.png" />
+      <h1>Grade computa 2020</h1>
 
-        </div>
-        <table>
-            <tr>
-                <th></th>
-                <th>1-ano</th>
-                <th>2-ano</th>
-                <th>3-ano</th>
-                <th>4-ano</th>
-            </tr>
-            <tr>
-                <th>1-semestre</th>
-                <th>
-                    <div class="semestre1">
-                    </div>
-                </th>
-                <th>
-                    <div class="semestre1">
-                    </div>
-                </th>
-                <th>
-                    <div class="semestre1"></div>
-                </th>
-                <th>
-                    <div class="semestre1"></div>
-                </th>
-            </tr>
-            <tr>
-                <th>2-semestre</th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-            </tr>
-        </table>
-    </body>
+      <div class="seleciona-modo" style="width: 200px">
+        <select id="temas">
+          <!-- adicione aqui a opção do seu tema  !--->
+          <option value="claro">Tema Claro</option>
+          <option value="escuro">Tema Escuro</option>
+        </select>
+      </div>
+    </nav>
+
+    <table>
+      <tr>
+        <th></th>
+        <th class="titulo-th">1-ano</th>
+        <th class="titulo-th">2-ano</th>
+        <th class="titulo-th">3-ano</th>
+        <th class="titulo-th">4-ano</th>
+      </tr>
+      <tr>
+        <th>1-semestre</th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+      </tr>
+      <tr>
+        <th>2-semestre</th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+      </tr>
+    </table>
+
+    <script src="grade.js"></script>
+    <script src="mudatema.js"></script>
+  </body>
 </html>

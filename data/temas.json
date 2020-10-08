@@ -1,0 +1,9 @@
+{
+    "temas":
+    {
+        "nome": "claro",
+        "corDeFundo": "#efefef",
+        "corDoTextoHeader": "#31363b",
+        "corDoTextoComum": "#31363b"
+    }
+}

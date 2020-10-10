@@ -1,4 +1,4 @@
-[
+const obj = [
     {
         "nome": "Tema Hacktober 2020",
         "corFundo": "#072540",
@@ -24,3 +24,6 @@
         "corTabelaPreenchimento": ""
     }
 ]
+
+const temasObj = JSON.stringify(obj);
+localStorage.setItem('temasArray', temasObj);

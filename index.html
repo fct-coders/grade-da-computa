@@ -1,58 +1,71 @@
 <html>
-    <head>
-        <title>Grade Ciência da computação</title>
-        <script src="grade.js"></script>
-        <link rel="stylesheet" href="grade.css">
-    </head>
-    <body>
-        <div>
+  <head>
+    <title>Disciplinas Computação FCT Unesp</title>
+    <script src="grade.js"></script>
+    <link rel="stylesheet" href="grade.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body onload="carrega_tema()">
+    <nav>
+      <img class="logo" src="./imagens/logo-cacic.png" />
+      <h1>Grade de Disciplinas da Computa FCT-Unesp</h1>
 
-        </div>
-        <table>
-            <tr>
-                <th></th>
-                <th>1-ano</th>
-                <th>2-ano</th>
-                <th>3-ano</th>
-                <th>4-ano</th>
-            </tr>
-            <tr>
-                <th>1-semestre</th>
-                <th>
-                    <div class="semestre1">
-                        <div class="materia grupo1">
-                            <p>ATP</p>
-                        </div>
-                        <div class="materia">
-                            ATP
-                        </div>
-                    </div>
-                </th>
-                <th>
-                    <div class="semestre1"></div>
-                </th>
-                <th>
-                    <div class="semestre1"></div>
-                </th>
-                <th>
-                    <div class="semestre1"></div>
-                </th>
-            </tr>
-            <tr>
-                <th>2-semestre</th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-                <th>
-                    <div class="semestre2"></div>
-                </th>
-            </tr>
-        </table>
-    </body>
+      <div class="seleciona-modo" style="width: 200px">
+        <select id="temas">
+          <!-- adicione aqui a opção do seu tema  !--->
+          <option value="claro">Tema Claro</option>
+          <option value="escuro">Tema Escuro</option>
+        </select>
+      </div>
+    </nav>
+
+    <table>
+      <tr>
+        <th></th>
+        <th class="titulo-th">1-ano</th>
+        <th class="titulo-th">2-ano</th>
+        <th class="titulo-th">3-ano</th>
+        <th class="titulo-th">4-ano</th>
+      </tr>
+      <tr>
+        <th>1-semestre</th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+        <th>
+          <div class="semestre1"></div>
+        </th>
+      </tr>
+      <tr>
+        <th>2-semestre</th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+        <th>
+          <div class="semestre2"></div>
+        </th>
+      </tr>
+    </table>
+
+    <script src="grade.js"></script>
+    <script src="mudatema.js"></script>
+  </body>
 </html>
+

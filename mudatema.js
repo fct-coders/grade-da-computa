@@ -1,27 +1,51 @@
-function seta_tema(tema) {
-  switch (tema) {
-    case "claro":
-      document.body.style.background = "#efefef";//altera cor de fundo
-      document.querySelector('h1').style.color = "#31363b" //altera cor do texto
-      localStorage.setItem('tema', 'claro'); //salva o tema escolhido em cache
-      break;
-    case "escuro":
-      document.body.style.background = "#31363b";//altera cor de fundo
-      document.querySelector('h1').style.color = "#efefef" //altera cor do texto
-      localStorage.setItem('tema', 'escuro'); //salva o tema escolhido em cache
-      break;
-    default:
+const select = document.getElementById('temas');
+
+function getTemas() {
+  const temas = JSON.parse(localStorage.getItem('temasArray'));
+
+  for (let i = 0; i < temas.length; i++) {
+    let option = document.createElement('option');
+    option.value = JSON.stringify(temas[i]);
+    option.textContent = temas[i].nome;
+    select.appendChild(option);
   }
 }
 
-var option = document.getElementById('temas');
-option.addEventListener('change', function () { seta_tema(this.value) });
+function seta_tema(tema) {
+  let objTema = JSON.parse(tema);
+  document.body.style.background = objTema.corFundo;
+  document.querySelector('h1').style.color = objTema.corTextoHeader;
+  document.body.style.color = objTema.corTextoComum;
+  document.querySelector('table').style.background = objTema.corTabelaPreenchimento;
+  document.querySelectorAll('th').forEach(table => {
+    table.style.borderColor = objTema.corTabelaBorda
+  });
+  const x = document.getElementsByClassName('materia');
+  for(let i=0; i<x.length; i++){
+    x[i].style.background=objTema.corCards;
+    x[i].style.borderColor=objTema.corTabelaBorda;
+  }
+  const y = document.getElementsByClassName('info');
+  for(let i=0; i<y.length; i++){
+    y[i].style.background=objTema.corInfos;
+  }
+  localStorage.setItem('tema', tema); //salva o tema escolhido no local storage 
 
-//seta o tema selecionado ao carregar página
+}
+
+select.addEventListener('change', function () {
+  seta_tema(this.value);
+});
+
+
 function carrega_tema() {
+  getTemas();
   const tema = localStorage.getItem('tema');
-  if (tema) {
+  if (tema) {//carrega o tema se ja foi selecionado 
     seta_tema(tema);
-    option.value = tema;
+    select.value = tema;
+  }
+  else {//carrega o tema que do primeiro value do select
+    seta_tema(select.value);
   }
 }

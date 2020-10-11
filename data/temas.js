@@ -4,8 +4,8 @@ const obj = [
         "corFundo": "#072540",
         "corTextoHeader": "#000000",
         "corTextoComum": "#93c2db",
-        "corTabelaBorda": "9c4668",
-        "corTabelaPreenchimento": "ff8ae2"
+        "corTabelaBorda": "#9c4668",
+        "corTabelaPreenchimento": "#ff8ae2"
     },
     {
         "nome": "Tema Claro",

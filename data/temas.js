@@ -3,9 +3,11 @@ const obj = [
         "nome": "Tema Hacktober 2020",
         "corFundo": "#072540",
         "corTextoHeader": "#000000",
-        "corTextoComum": "#93c2db",
+        "corTextoComum": "#072540",
         "corTabelaBorda": "#9c4668",
-        "corTabelaPreenchimento": "#ff8ae2"
+        "corTabelaPreenchimento": "#ff8ae2",
+        "corCards": "#93c2db",
+        "corInfos": ""
     },
     {
         "nome": "Tema Claro",
@@ -13,7 +15,9 @@ const obj = [
         "corTextoHeader": "#31363b",
         "corTextoComum": "#31363b",
         "corTabelaBorda": "",
-        "corTabelaPreenchimento": ""
+        "corTabelaPreenchimento": "",
+        "corCards": "",
+        "corInfos": ""
     },
     {
         "nome": "Tema Escuro",
@@ -21,7 +25,9 @@ const obj = [
         "corTextoHeader": "#efefef",
         "corTextoComum": "#efefef",
         "corTabelaBorda": "",
-        "corTabelaPreenchimento": ""
+        "corTabelaPreenchimento": "",
+        "corCards": "",
+        "corInfos": "black"
     }
 ]
 

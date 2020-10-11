@@ -20,7 +20,15 @@ function seta_tema(tema) {
   document.querySelectorAll('th').forEach(table => {
     table.style.borderColor = objTema.corTabelaBorda
   });
-
+  const x = document.getElementsByClassName('materia');
+  for(let i=0; i<x.length; i++){
+    x[i].style.background=objTema.corCards;
+    x[i].style.borderColor=objTema.corTabelaBorda;
+  }
+  const y = document.getElementsByClassName('info');
+  for(let i=0; i<y.length; i++){
+    y[i].style.background=objTema.corInfos;
+  }
   localStorage.setItem('tema', tema); //salva o tema escolhido no local storage 
 
 }

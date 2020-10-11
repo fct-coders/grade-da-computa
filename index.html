@@ -9,7 +9,7 @@
       type="text/css"
     />
   </head>
-  <body onload="carrega_tema()">
+  <body onload="gera_tabela(),carrega_tema()">
     <nav>
       <img class="logo" src="./imagens/logo-cacic.png" />
       <h1>Grade de Disciplinas da Computa FCT-Unesp</h1>
@@ -33,7 +33,8 @@
           <div class="semestre1"></div>
         </th>
         <th>
-          <div class="semestre1"></div>
+          <div class="semestre1">
+          </div>
         </th>
         <th>
           <div class="semestre1"></div>
@@ -58,9 +59,9 @@
         </th>
       </tr>
     </table>
-
+    <script src="data/temas.js"></script>
+    <script src="data/disciplinas.js"></script>
     <script src="grade.js"></script>
     <script src="mudatema.js"></script>
-    <script src="data/temas.js"></script>
   </body>
 </html>

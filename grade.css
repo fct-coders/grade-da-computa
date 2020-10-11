@@ -1,7 +1,7 @@
 table,
 th,
 tr {
-  border: solid 1px gray;
+  border: solid 2px gray;
 }
 
 table {
@@ -29,7 +29,29 @@ th {
   margin-bottom: 1vh;
   text-align: center;
   display: inline;
-  border: solid 1px black;
+  border: solid 2px black;
+}
+.info{
+  position: relative;
+  width: 20vw;
+  height: 30vh;
+  bottom:24vh;
+  margin-left: 10vw;
+  font-size: 1vw;
+  overflow-y: auto;
+  text-align: justify;
+  display: none;
+}
+
+.info > p{
+  margin-top:2vh;
+  margin-left: 1vw;
+}
+
+.info >ul{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  margin-left: 2vw;
 }
 
 .materia > p {

@@ -21,35 +21,50 @@ th {
   height: 10vw;
   width: 20vw;
 }
-
+@keyframes fadeScale {
+  from {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 .materia {
+  animation: fadeScale 1s;
   width: 10vw;
   height: 15vh;
   margin-top: 1vh;
   margin-bottom: 1vh;
   text-align: center;
-  display: inline;
   border: solid 2px black;
+  cursor: pointer;
 }
-.info{
+.materia:hover {
+  box-shadow: 5px 2px 20px rgba(36, 36, 36, 0.616);
+}
+.info {
+  animation: fadeScale 1.8s;
   position: relative;
   width: 20vw;
   height: 30vh;
-  bottom:24vh;
+  bottom: 24vh;
   margin-left: 10vw;
   font-size: 1vw;
   overflow-y: auto;
   text-align: justify;
   display: none;
   z-index: 999;
+  box-shadow: 5px 2px 15px rgba(36, 36, 36, 0.616);
 }
 
-.info > p{
-  margin-top:2vh;
+.info > p {
+  margin-top: 2vh;
   margin-left: 1vw;
 }
 
-.info >ul{
+.info > ul {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   margin-left: 2vw;

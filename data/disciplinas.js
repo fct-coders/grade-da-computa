@@ -5,11 +5,11 @@ const ob = [
         "semestre": "1",
         "docente": "Piteri",
         "email": "email.do.piteri@unesp.br",
-        "tranca": 
-        [
-            "EDs 1",
-            "POO 1"
-        ],
+        "tranca":
+            [
+                "EDs 1",
+                "POO 1"
+            ],
         "trancadoPor": ""
     },
     {
@@ -18,10 +18,10 @@ const ob = [
         "semestre": "2",
         "docente": "Piteri",
         "email": "email.do.piteri@unesp.br",
-        "tranca": 
-        [
-            "Estrutura de dados 2"
-        ],
+        "tranca":
+            [
+                "Estrutura de dados 2"
+            ],
         "trancadoPor": ""
     },
     {
@@ -30,10 +30,10 @@ const ob = [
         "semestre": "1",
         "docente": "Ronaldo",
         "email": "email.do.ronaldo@unesp.br",
-        "tranca": 
-        [
-            "Banco de Dados"
-        ],
+        "tranca":
+            [
+                "Banco de Dados"
+            ],
         "trancadoPor": "Estrutura de Dados 1"
     },
 ]

@@ -1,12 +1,12 @@
 function aparece_info(info){
-    info.style.display = 'block';
+    document.getElementById(info).style.display = 'block';
 }
 
 function desaparece_info(info){
-    info.style.display = 'none';
+    document.getElementById(info).style.display = 'none';
 }
 
-function cria_diciplinas(obj){
+function cria_diciplinas(obj, x){
     //cria card
     const card = document.createElement("div");
     card.setAttribute("class", "materia");
@@ -14,7 +14,7 @@ function cria_diciplinas(obj){
     materia.innerHTML = obj.nome;
     card.appendChild(materia);
     const info = document.createElement("div");
-    info.setAttribute("id",`${obj.nome}`)
+    info.setAttribute("id",`${x}ID`)
     info.setAttribute("class","info");
     const p1 = document.createElement("p");
     p1.innerHTML =`Docente:${obj.docente}`;
@@ -34,9 +34,15 @@ function cria_diciplinas(obj){
         lista.appendChild(item);
     })
     info.appendChild(lista);
+    const p4 = document.createElement("p");
+    p4.innerHTML = "É trancado por:"
+    info.appendChild(p4);
+    const p5 = document.createElement("p");
+    p5.innerHTML = obj.trancadoPor;
+    info.appendChild(p5);
     card.appendChild(info);
-    card.setAttribute("onmouseenter", `aparece_info(${obj.nome})`);
-    card.setAttribute("onmouseleave", `desaparece_info(${obj.nome})`);
+    card.setAttribute("onmouseenter", `aparece_info("${x}ID")`);
+    card.setAttribute("onmouseleave", `desaparece_info("${x}ID")`);
     return card;
 }
 
@@ -48,7 +54,7 @@ function gera_tabela(){
         x=parseInt(diciplinas[i].ano);
         y=parseInt(diciplinas[i].semestre);
         console.log(x+y*4+y)
-        componente= cria_diciplinas(diciplinas[i]);
+        componente= cria_diciplinas(diciplinas[i], i);
         console.log(componente);
         document.querySelectorAll("th")[x+y*4+y].querySelector("div").appendChild(componente);
     }

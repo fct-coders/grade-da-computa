@@ -41,6 +41,7 @@ th {
   overflow-y: auto;
   text-align: justify;
   display: none;
+  z-index: 999;
 }
 
 .info > p{

@@ -1,6 +1,6 @@
 const ob = [
     {
-        "nome": "ATP 1",
+        "nome": "ATP1",
         "ano": "1",
         "semestre": "1",
         "docente": "Piteri",
@@ -25,7 +25,7 @@ const ob = [
         "trancadoPor": ""
     },
     {
-        "nome": "ED 1",
+        "nome": "ED1",
         "ano": "2",
         "semestre": "1",
         "docente": "Ronaldo",

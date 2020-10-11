@@ -1,42 +1,40 @@
 const ob = [
     {
-        "nome": "ATP",
+        "nome": "ATP 1",
         "ano": "1",
         "semestre": "1",
         "docente": "Piteri",
         "email": "email.do.piteri@unesp.br",
         "tranca": 
         [
-            "Estrutura de dados 1",
-            "Programação Orientada a Objetos 1"
+            "EDs 1",
+            "POO 1"
         ],
         "trancadoPor": ""
     },
     {
         "nome": "ATP2",
         "ano": "1",
-        "semestre": "1",
+        "semestre": "2",
         "docente": "Piteri",
         "email": "email.do.piteri@unesp.br",
         "tranca": 
         [
-            "Estrutura de dados 1",
-            "Programação Orientada a Objetos 1"
+            "Estrutura de dados 2"
         ],
         "trancadoPor": ""
     },
     {
-        "nome": "ED",
+        "nome": "ED 1",
         "ano": "2",
-        "semestre": "2",
+        "semestre": "1",
         "docente": "Ronaldo",
-        "email": "email.do.piteri@unesp.br",
+        "email": "email.do.ronaldo@unesp.br",
         "tranca": 
         [
-            "Estrutura de dados 1",
-            "Programação Orientada a Objetos 1"
+            "Banco de Dados"
         ],
-        "trancadoPor": ""
+        "trancadoPor": "Estrutura de Dados 1"
     },
 ]
 

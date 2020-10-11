@@ -20,16 +20,15 @@ function seta_tema(tema) {
   document.querySelectorAll('th').forEach(table => {
     table.style.borderColor = objTema.corTabelaBorda
   });
-  const x = document.getElementsByClassName('materia');
-  for(let i=0; i<x.length; i++){
-    x[i].style.background=objTema.corCards;
-    x[i].style.borderColor=objTema.corTabelaBorda;
-  }
-  const y = document.getElementsByClassName('info');
-  for(let i=0; i<y.length; i++){
-    y[i].style.background=objTema.corInfos;
-  }
-  localStorage.setItem('tema', tema); //salva o tema escolhido no local storage 
+  document.querySelectorAll('.materia').forEach(element => {
+    element.style.background = objTema.corCards;
+    element.style.borderColor = objTema.corTabelaBorda;
+  });
+  document.querySelectorAll('.info').forEach(element => {
+    element.style.background = objTema.corInfos;
+  });
+
+  localStorage.setItem('temaSelecionado', tema); //salva o tema escolhido no local storage 
 
 }
 
@@ -40,12 +39,12 @@ select.addEventListener('change', function () {
 
 function carrega_tema() {
   getTemas();
-  const tema = localStorage.getItem('tema');
+  const tema = localStorage.getItem('temaSelecionado');
   if (tema) {//carrega o tema se ja foi selecionado 
     seta_tema(tema);
     select.value = tema;
   }
-  else {//carrega o tema que do primeiro value do select
+  else {//carrega o tema do primeiro value do select
     seta_tema(select.value);
   }
 }

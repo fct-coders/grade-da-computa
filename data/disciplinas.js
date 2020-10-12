@@ -1,40 +1,83 @@
+/*
+
+    Template:
+    {
+        "nome": "Nome da Disciplina",
+        "id": "Abreviação do Nome se possível",
+        "ano": "X",
+        "semestre": "Y",
+        "docente": "Nome do Docente Efetivo ou "Substituto" se não houver docente efetivo",
+        "email": "email@unesp.br do docente efetivo",
+        "tranca":
+            [
+                "Lista de disciplinas que essa matéria tranca",
+                "Ou apenas uma string se a matéria tranca somente uma disciplina"
+                "Ou vazio se não tranca nada"
+            ],
+        "trancadoPor": "Mesma coisa do campo "tranca:" "
+    }
+
+*/
+
 const ob = [
     {
-        "nome": "ATP1",
+        "nome": "Algoritmos e Técnicas de Programação 1",
+        "id": "ATP 1",
         "ano": "1",
         "semestre": "1",
-        "docente": "Piteri",
-        "email": "email.do.piteri@unesp.br",
+        "docente": "Marco Antônio Piteri",
+        "email": "marco.piteri@unesp.br",
         "tranca":
             [
-                "EDs 1",
-                "POO 1"
+                "Estrutura de Dados 1",
+                "Programação Orientada a Objetos 1"
             ],
         "trancadoPor": ""
     },
     {
-        "nome": "ATP2",
+        "nome": "Lógica",
+        "id": "Lógica",
+        "ano": "1",
+        "semestre": "1",
+        "docente": "Almir Artero",
+        "email": "almir.artero@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
+    {
+        "nome": "Algoritmos e Técnicas de Programação 2",
+        "id": "ATP 2",
         "ano": "1",
         "semestre": "2",
-        "docente": "Piteri",
-        "email": "email.do.piteri@unesp.br",
+        "docente": "Marco Antônio Piteri",
+        "email": "marco.piteri@unesp.br",
         "tranca":
-            [
-                "Estrutura de dados 2"
-            ],
-        "trancadoPor": ""
+        [
+            "Estrutura de dados 2"
+        ],
+        "trancadoPor":
+        [
+        ]
     },
     {
-        "nome": "ED1",
+        "nome": "Estrutura de Dados 1",
+        "id": "ED 1",
         "ano": "2",
         "semestre": "1",
         "docente": "Ronaldo",
-        "email": "email.do.ronaldo@unesp.br",
+        "email": "ronaldo.correia@unesp.br",
         "tranca":
-            [
-                "Banco de Dados"
-            ],
-        "trancadoPor": "Estrutura de Dados 1"
+        [
+            "Banco de Dados"
+        ],
+        "trancadoPor":
+        [
+            "Estrutura de Dados 1"
+        ]
     },
 ]
 

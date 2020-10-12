@@ -2,12 +2,12 @@ const obj = [
     {
         "nome": "Tema Hacktober 2020",
         "corFundo": "#072540",
-        "corTextoHeader": "#000000",
+        "corTextoHeader": "white",
         "corTextoComum": "#072540",
         "corTabelaBorda": "#9c4668",
         "corTabelaPreenchimento": "#ff8ae2",
         "corCards": "#93c2db",
-        "corInfos": ""
+        "corInfos": "#93c2db"
     },
     {
         "nome": "Tema Claro",

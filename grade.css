@@ -1,7 +1,8 @@
 table,
 th,
 tr {
-  border: solid 2px gray;
+  border: solid 4px gray;
+  border-collapse: collapse;
 }
 
 table {
@@ -47,8 +48,8 @@ th {
 .info {
   animation: fadeScale 1.8s;
   position: relative;
-  width: 20vw;
-  height: 30vh;
+  width: 23vw;
+  height: 40vh;
   bottom: 24vh;
   margin-left: 10vw;
   font-size: 1vw;

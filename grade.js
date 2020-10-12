@@ -11,22 +11,24 @@ function cria_diciplinas(obj, x){
     const card = document.createElement("div");
     card.setAttribute("class", "materia");
     const materia = document.createElement("p");
-    materia.innerHTML = obj.nome;
+    materia.innerHTML = obj.id;
     card.appendChild(materia);
     const info = document.createElement("div");
     info.setAttribute("id",`${x}ID`)
     info.setAttribute("class","info");
     const p1 = document.createElement("p");
-    p1.innerHTML =`Docente:${obj.docente}`;
+    p1.innerHTML =`${obj.nome}`;
     info.appendChild(p1);
     const p2 = document.createElement("p");
-    p2.innerHTML = `Email:${obj.email}`;
+    p2.innerHTML =`Docente: ${obj.docente}`;
     info.appendChild(p2);
     const p3 = document.createElement("p");
-    p3.innerHTML = `Materias que tranca:`;
-    const br = document.createElement("br");
-    info.appendChild(br);
+    p3.innerHTML = `Email: ${obj.email}`;
     info.appendChild(p3);
+    const p4 = document.createElement("p");
+    p4.innerHTML = `Tranca: `;
+    const br = document.createElement("br");
+    info.appendChild(p4);
     const lista = document.createElement("ul");
     obj.tranca.map(i=>{
         const item = document.createElement("li");
@@ -34,12 +36,12 @@ function cria_diciplinas(obj, x){
         lista.appendChild(item);
     })
     info.appendChild(lista);
-    const p4 = document.createElement("p");
-    p4.innerHTML = "É trancado por:"
-    info.appendChild(p4);
     const p5 = document.createElement("p");
-    p5.innerHTML = obj.trancadoPor;
+    p5.innerHTML = "É trancado por: "
     info.appendChild(p5);
+    const p6 = document.createElement("p");
+    p6.innerHTML = obj.trancadoPor;
+    info.appendChild(p6);
     card.appendChild(info);
     card.setAttribute("onmouseenter", `aparece_info("${x}ID")`);
     card.setAttribute("onmouseleave", `desaparece_info("${x}ID")`);

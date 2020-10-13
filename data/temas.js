@@ -11,13 +11,13 @@ const obj = [
     },
     {
         "nome": "Tema Claro",
-        "corFundo": "#BBBBFF",
+        "corFundo": "#CCCCFF",
         "corTextoHeader": "black",
         "corTextoComum": "black",
         "corTabelaBorda": "#3E4097",
-        "corTabelaPreenchimento": "#BBBBFF",
-        "corCards": "#93c2db",
-        "corInfos": "#93c2db"
+        "corTabelaPreenchimento": "#CCCCFF",
+        "corCards": "#BBBBFF",
+        "corInfos": "#BBBBFF"
     },
     {
         "nome": "Tema Escuro",

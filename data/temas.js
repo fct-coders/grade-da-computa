@@ -11,23 +11,23 @@ const obj = [
     },
     {
         "nome": "Tema Claro",
-        "corFundo": "#efefef",
-        "corTextoHeader": "#31363b",
-        "corTextoComum": "#31363b",
-        "corTabelaBorda": "",
-        "corTabelaPreenchimento": "",
-        "corCards": "",
-        "corInfos": ""
+        "corFundo": "#BBBBFF",
+        "corTextoHeader": "black",
+        "corTextoComum": "black",
+        "corTabelaBorda": "#3E4097",
+        "corTabelaPreenchimento": "#BBBBFF",
+        "corCards": "#93c2db",
+        "corInfos": "#93c2db"
     },
     {
         "nome": "Tema Escuro",
         "corFundo": "#31363b",
-        "corTextoHeader": "#efefef",
-        "corTextoComum": "#efefef",
-        "corTabelaBorda": "",
+        "corTextoHeader": "white",
+        "corTextoComum": "white",
+        "corTabelaBorda": "white",
         "corTabelaPreenchimento": "",
-        "corCards": "",
-        "corInfos": "black"
+        "corCards": "#777777",
+        "corInfos": "#777777"
     }
 ]
 

@@ -37,7 +37,7 @@ function cria_diciplinas(obj, x){
     })
     info.appendChild(lista);
     const p5 = document.createElement("p");
-    p5.innerHTML = "É trancado por: "
+    p5.innerHTML = "Trancado por: "
     info.appendChild(p5);
     const p6 = document.createElement("p");
     p6.innerHTML = obj.trancadoPor;

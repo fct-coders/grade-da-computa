@@ -7,7 +7,7 @@ tr {
 
 table {
   width: 80vw;
-  height: 50vh;
+  height: 30vw;
   margin: auto;
 }
 
@@ -33,9 +33,9 @@ th {
   }
 }
 .materia {
-  animation: fadeScale 1s;
+  animation: fadeScale 0.3s;
   width: 10vw;
-  height: 15vh;
+  height: 5vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
   text-align: center;
@@ -46,10 +46,10 @@ th {
   box-shadow: 5px 2px 20px rgba(36, 36, 36, 0.616);
 }
 .info {
-  animation: fadeScale 1.8s;
+  animation: fadeScale 0.3s;
   position: relative;
   width: 23vw;
-  height: 40vh;
+  height: 20vw;
   bottom: 24vh;
   margin-left: 10vw;
   font-size: 1vw;
@@ -72,5 +72,5 @@ th {
 }
 
 .materia > p {
-  margin-top: 6vh;
+  margin-top: 4vh;
 }

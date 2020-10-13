@@ -36,6 +36,7 @@ th {
   animation: fadeScale 0.3s;
   width: 10vw;
   height: 5vw;
+  font-size: 1vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
   text-align: center;
@@ -50,7 +51,7 @@ th {
   position: relative;
   width: 23vw;
   height: 20vw;
-  bottom: 24vh;
+  bottom: 12vw;
   margin-left: 10vw;
   font-size: 1vw;
   overflow-y: auto;
@@ -72,5 +73,5 @@ th {
 }
 
 .materia > p {
-  margin-top: 4vh;
+  margin-top: 2vw;
 }

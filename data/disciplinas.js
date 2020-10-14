@@ -9,17 +9,18 @@
         "docente": "Nome do Docente Efetivo ou "Substituto" se não houver docente efetivo",
         "email": "email@unesp.br do docente efetivo",
         "tranca":
-            [
-                "Lista de disciplinas que essa matéria tranca",
-                "Ou apenas uma string se a matéria tranca somente uma disciplina"
-                "Ou vazio se não tranca nada"
-            ],
+        [
+            "Lista de disciplinas que essa matéria tranca",
+            "Ou vazio se não tranca nada"
+        ],
         "trancadoPor": "Mesma coisa do campo "tranca:" "
     }
 
 */
 
 const ob = [
+
+    // Primeiro ano, primeiro semestre
     {
         "nome": "Algoritmos e Técnicas de Programação 1",
         "id": "ATP 1",
@@ -28,11 +29,14 @@ const ob = [
         "docente": "Marco Antônio Piteri",
         "email": "marco.piteri@unesp.br",
         "tranca":
-            [
-                "Estrutura de Dados 1",
-                "Programação Orientada a Objetos 1"
-            ],
-        "trancadoPor":[] 
+        [
+            "Estrutura de Dados 1",
+            "Programação Orientada a Objetos 1"
+        ],
+        "trancadoPor":
+        [
+
+        ]
     },
     {
         "nome": "Lógica",
@@ -43,11 +47,15 @@ const ob = [
         "email": "almir.artero@unesp.br",
         "tranca":
         [
+
         ],
         "trancadoPor":
         [
+
         ]
     },
+
+    // Primeiro ano, segundo semestre
     {
         "nome": "Algoritmos e Técnicas de Programação 2",
         "id": "ATP 2",
@@ -63,6 +71,8 @@ const ob = [
         [
         ]
     },
+
+    //Segundo ano, primeiro semestre
     {
         "nome": "Estrutura de Dados 1",
         "id": "ED 1",
@@ -79,6 +89,21 @@ const ob = [
             "Estrutura de Dados 1"
         ]
     },
+
+    // Segundo ano, segundo semestre
+
+    
+    // Terceiro ano, primeiro semestre
+
+    
+    // Terceiro ano, segundo semestre
+
+    
+    // Quarto ano, primeiro semestre
+
+    
+    // Quarto ano, segundo semestre
+
 ]
 
 const DicObj = JSON.stringify(ob);

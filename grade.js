@@ -37,11 +37,16 @@ function cria_diciplinas(obj, x){
     })
     info.appendChild(lista);
     const p5 = document.createElement("p");
-    p5.innerHTML = "É trancado por: "
+    p5.innerHTML = "É trancado por:"
     info.appendChild(p5);
-    const p6 = document.createElement("p");
-    p6.innerHTML = obj.trancadoPor;
-    info.appendChild(p6);
+    const lista2 = document.createElement("ul");
+    obj.trancadoPor.map(i=>{
+        const item = document.createElement("li");
+        item.innerHTML = `${i}`;
+        lista2.appendChild(item);
+    }
+    )
+    info.appendChild(lista2);
     card.appendChild(info);
     card.setAttribute("onmouseenter", `aparece_info("${x}ID")`);
     card.setAttribute("onmouseleave", `desaparece_info("${x}ID")`);

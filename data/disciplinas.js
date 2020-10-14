@@ -32,7 +32,7 @@ const ob = [
                 "Estrutura de Dados 1",
                 "Programação Orientada a Objetos 1"
             ],
-        "trancadoPor": ""
+        "trancadoPor":[] 
     },
     {
         "nome": "Lógica",

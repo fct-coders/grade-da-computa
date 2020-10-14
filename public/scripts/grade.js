@@ -56,13 +56,10 @@ function cria_diciplinas(obj, x){
 function gera_tabela(){
     const diciplinas = JSON.parse(localStorage.getItem("Diciplinas"));
     let x,y,componente;
-    console.log(diciplinas);
     for(let i=0; i<diciplinas.length;i++){
         x=parseInt(diciplinas[i].ano);
         y=parseInt(diciplinas[i].semestre);
-        console.log(x+y*4+y)
         componente= cria_diciplinas(diciplinas[i], i);
-        console.log(componente);
         document.querySelectorAll("th")[x+y*4+y].querySelector("div").appendChild(componente);
     }
 }

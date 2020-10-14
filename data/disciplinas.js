@@ -82,10 +82,12 @@ const ob = [
         "email": "ronaldo.correia@unesp.br",
         "tranca":
         [
+            "Banco de Dados",
             "Banco de Dados"
         ],
         "trancadoPor":
         [
+            "Estrutura de Dados 1",
             "Estrutura de Dados 1"
         ]
     },

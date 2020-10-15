@@ -98,7 +98,19 @@ const ob = [
     
     // Terceiro ano, segundo semestre
 
-    
+    {
+        "nome": "Redes de Computadores II",
+        "id": "Redes II",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Helton Molina Sapia",
+        "email": "helton.sapia@unesp.br",
+        "tranca":
+        [
+           
+        ],
+        "trancadoPor": []
+    }
     // Quarto ano, primeiro semestre
 
     

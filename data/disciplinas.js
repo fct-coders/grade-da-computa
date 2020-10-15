@@ -105,6 +105,22 @@ const ob = [
         [
         ]
     },
+
+    {
+        "nome": "Projeto e Análise de Algoritmos",
+        "id": "PAA",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Danilo",
+        "email": "danilo.eler@unesp.br",
+        "tranca":
+        [ 
+        ],
+        "trancadoPor":
+        [
+            "Algoritmos e Técnicas de Programação 2"
+        ]
+    },
     
     // Terceiro ano, primeiro semestre
 

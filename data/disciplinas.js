@@ -65,7 +65,7 @@ const ob = [
         "email": "marco.piteri@unesp.br",
         "tranca":
         [
-            "Estrutura de dados 2"
+            "Projeto e Análise de Algoritmos"
         ],
         "trancadoPor":
         [
@@ -91,7 +91,20 @@ const ob = [
     },
 
     // Segundo ano, segundo semestre
-
+    {
+        "nome": "Estrutura de Dados 2",
+        "id": "ED 2",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Milton",
+        "email": "milton.h.shimabukuro@unesp.br",
+        "tranca":
+        [ 
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
     
     // Terceiro ano, primeiro semestre
 

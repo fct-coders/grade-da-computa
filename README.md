@@ -1,7 +1,7 @@
-# Utilitários do curso de Ciência da Computação da FCT-Unesp
+# Grade do curso de Ciência da Computação da FCT-Unesp
 
 Repositório de informações gerais e utilidades do curso de Bacharelado em Ciência da Computação da FCT-Unesp.  
-Acesse https://rafael-rosseto.github.io/computa-full-fct-unesp/ para visualizar as informações.
+Acesse https://fct-coders.github.io/grade-da-computa/ para visualizar as informações.
 
 ## Contribuições
 

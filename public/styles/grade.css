@@ -6,8 +6,8 @@ tr {
 }
 
 table {
-  width: 80vw;
-  height: 30vw;
+  width: 95vw;
+  height: 85vw;
   margin: auto;
 }
 
@@ -19,8 +19,8 @@ table {
 }
 
 th {
-  height: 10vw;
-  width: 20vw;
+  height: 3vw;
+  width: 15vw;
 }
 @keyframes fadeScale {
   from {
@@ -34,9 +34,10 @@ th {
 }
 .materia {
   animation: fadeScale 0.3s;
-  width: 10vw;
-  height: 5vw;
-  font-size: 1vw;
+  width: 5rem;
+  height: 3rem;
+  font-size: clamp(1rem, 1vw, 2rem);
+
   margin-top: 1vh;
   margin-bottom: 1vh;
   text-align: center;
@@ -74,4 +75,15 @@ th {
 
 .materia > p {
   margin-top: 2vw;
+}
+
+@media (min-width: 760px) {
+  table{
+    height: 30vw;
+    width: 0;
+  }
+  .materia {
+    width: 10vw;
+    height: 5vw;
+  }
 }

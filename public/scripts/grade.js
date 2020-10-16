@@ -1,12 +1,12 @@
-function aparece_info(info){
+function aparece_info(info) {
     document.getElementById(info).style.display = 'block';
 }
 
-function desaparece_info(info){
+function desaparece_info(info) {
     document.getElementById(info).style.display = 'none';
 }
 
-function cria_diciplinas(obj, x){
+function cria_diciplinas(obj, x) {
     //cria card
     const card = document.createElement("div");
     card.setAttribute("class", "materia");
@@ -14,13 +14,13 @@ function cria_diciplinas(obj, x){
     materia.innerHTML = obj.id;
     card.appendChild(materia);
     const info = document.createElement("div");
-    info.setAttribute("id",`${x}ID`)
-    info.setAttribute("class","info");
-    const p1 = document.createElement("p");
-    p1.innerHTML =`${obj.nome}`;
+    info.setAttribute("id", `${x}ID`)
+    info.setAttribute("class", "info");
+    const p1 = document.createElement("h1");
+    p1.innerHTML = `${obj.nome}`;
     info.appendChild(p1);
     const p2 = document.createElement("p");
-    p2.innerHTML =`Docente: ${obj.docente}`;
+    p2.innerHTML = `Docente: ${obj.docente}`;
     info.appendChild(p2);
     const p3 = document.createElement("p");
     p3.innerHTML = `Email: ${obj.email}`;
@@ -30,7 +30,7 @@ function cria_diciplinas(obj, x){
     const br = document.createElement("br");
     info.appendChild(p4);
     const lista = document.createElement("ul");
-    obj.tranca.map(i=>{
+    obj.tranca.map(i => {
         const item = document.createElement("li");
         item.innerHTML = `${i}`;
         lista.appendChild(item);
@@ -40,7 +40,7 @@ function cria_diciplinas(obj, x){
     p5.innerHTML = "Trancado por: "
     info.appendChild(p5);
     const lista2 = document.createElement("ul");
-    obj.trancadoPor.map(i=>{
+    obj.trancadoPor.map(i => {
         const item = document.createElement("li");
         item.innerHTML = `${i}`;
         lista2.appendChild(item);
@@ -53,13 +53,18 @@ function cria_diciplinas(obj, x){
     return card;
 }
 
-function gera_tabela(){
+function gera_tabela() {
     const diciplinas = JSON.parse(localStorage.getItem("Diciplinas"));
-    let x,y,componente;
-    for(let i=0; i<diciplinas.length;i++){
-        x=parseInt(diciplinas[i].ano);
-        y=parseInt(diciplinas[i].semestre);
-        componente= cria_diciplinas(diciplinas[i], i);
-        document.querySelectorAll("th")[x+y*4+y].querySelector("div").appendChild(componente);
+    let x, y, componente;
+    for (let i = 0; i < diciplinas.length; i++) {
+        x = parseInt(diciplinas[i].ano);
+        y = parseInt(diciplinas[i].semestre);
+        componente = cria_diciplinas(diciplinas[i], i);
+        if(x === 1) {
+            componente.lastChild.style.float = 'left'
+        }else{
+            componente.lastChild.style.float = 'right'
+        }
+        document.querySelectorAll("th")[x + y * 4 + y].querySelector("div").appendChild(componente);
     }
 }

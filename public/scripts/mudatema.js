@@ -27,6 +27,8 @@ function seta_tema(tema) {
   document.querySelectorAll('.info').forEach(element => {
     element.style.background = objTema.corInfos;
   });
+  document.querySelector('footer').style.background = objTema.corCards;
+  document.querySelector('footer a:visited, a').style.color = objTema.corTextoComum;
 
   localStorage.setItem('temaSelecionado', tema); //salva o tema escolhido no local storage 
 

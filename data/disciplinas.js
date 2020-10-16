@@ -124,6 +124,20 @@ const ob = [
     
     // Terceiro ano, primeiro semestre
 
+    {
+        "nome": "Sistemas Operacionais II",
+        "id": "SO II",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "Maurício Araújo Dias",
+        "email": "ma.dias@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
     
     // Terceiro ano, segundo semestre
 

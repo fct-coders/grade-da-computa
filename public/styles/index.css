@@ -24,7 +24,7 @@ body {
 
 nav {
   width: 100%;
-  font: 200 clamp(1rem, 3vw, 2rem) / 1.1 "Roboto", sans-serif;
+  font: 200 clamp(1rem, 3vw, 1.6rem) / 1.1 "Roboto", sans-serif;
   padding: 10px;
  
   display: flex;

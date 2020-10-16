@@ -42,6 +42,7 @@ th {
   text-align: center;
   border: solid 2px black;
   cursor: pointer;
+  font-family:"Roboto", "sans-serif";
 
 }
 .materia:hover {
@@ -87,14 +88,14 @@ th {
 @media (min-width: 760px) {
   table{
     height: 30vw;
-    width: 0;
+    width: 80vw;
   }
   .materia {
     width: 10vw;
     height: 5vw;
   }
   .info {
-    top: 3rem;
+    top: 2.3rem;
   }
   
 }

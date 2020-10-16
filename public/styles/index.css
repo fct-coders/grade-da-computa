@@ -68,7 +68,7 @@ select:hover {
 
 footer{
   position: absolute;
-  bottom: 0;
+  top: 100vh;
   width: 100%;
   text-align: center;
   padding: 12px;
@@ -97,8 +97,6 @@ footer a:visited, a {
   }
 
   footer{
-    top: 100%;
-    bottom: initial;
     margin-top: 4rem;
   }
 }

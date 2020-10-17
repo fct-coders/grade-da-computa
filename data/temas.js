@@ -15,7 +15,7 @@ const obj = [
         "corTextoHeader": "black",
         "corTextoComum": "black",
         "corTabelaBorda": "#3E4097",
-        "corTabelaPreenchimento": "#CCCCFF",
+        "corTabelaPreenchimento": "#FEC5FB",
         "corCards": "#BBBBFF",
         "corInfos": "#BBBBFF"
     },
@@ -25,7 +25,7 @@ const obj = [
         "corTextoHeader": "white",
         "corTextoComum": "white",
         "corTabelaBorda": "white",
-        "corTabelaPreenchimento": "",
+        "corTabelaPreenchimento": "#384E61",
         "corCards": "#777777",
         "corInfos": "#777777"
     }

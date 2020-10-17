@@ -138,6 +138,21 @@ const ob = [
         [
         ]
     },
+
+    {
+        "nome": "Processamento Digital de Imagens",
+        "id": "PDI",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "Milton Hirokazu Shimabukuro",
+        "email": "milton.h.shimabukuro@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
     
     // Terceiro ano, segundo semestre
 

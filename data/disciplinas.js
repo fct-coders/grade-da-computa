@@ -89,21 +89,6 @@ const ob = [
             "Estrutura de Dados 1"
         ]
     },
-    {
-        "nome": "Processamento Digital de Imagens",
-        "id": "PDI",
-        "ano": "2",
-        "semestre": "1",
-        "docente": "Milton Hirokazu Shimabukuro",
-        "email": "milton.h.shimabukuro@unesp.br",
-        "tranca":
-        [
-        ],
-        "trancadoPor":
-        [
-            "Cálculo 2"
-        ]
-    },
 
     // Segundo ano, segundo semestre
     {
@@ -146,6 +131,21 @@ const ob = [
         "semestre": "1",
         "docente": "Maurício Araújo Dias",
         "email": "ma.dias@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
+
+    {
+        "nome": "Processamento Digital de Imagens",
+        "id": "PDI",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "Milton Hirokazu Shimabukuro",
+        "email": "milton.h.shimabukuro@unesp.br",
         "tranca":
         [
         ],

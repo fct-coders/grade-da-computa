@@ -165,12 +165,28 @@ const ob = [
         [
         ],
         "trancadoPor": []
-    }
+    },
     // Quarto ano, primeiro semestre
 
     
     // Quarto ano, segundo semestre
 
+    //Quinto ano, primeiro semestre (Grade Antiga)
+
+    {
+        "nome": "Trabalho de Conclusão de Curso III",
+        "id": "TCC III",
+        "ano": "5",
+        "semestre": "1",
+        "docente": "Milton Hirokazu Shimabukuro",
+        "email": "milton.h.shimabukuro@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor": [
+            "Trabalho de Conclusão de Curso I"
+        ]
+    }
 ]
 
 const DicObj = JSON.stringify(ob);

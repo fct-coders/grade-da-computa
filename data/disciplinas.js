@@ -54,6 +54,22 @@ const ob = [
 
         ]
     },
+    {
+        "nome": "Matemática Discreta",
+        "id": "Matemática Discreta",
+        "ano": "1",
+        "semestre": "1",
+        "docente": "Cristiane Nespoli de Oliveira",
+        "email": "cristiane.nespoli@unesp.br",
+        "tranca":
+        [
+
+        ],
+        "trancadoPor":
+        [
+
+        ]
+    },
 
     // Primeiro ano, segundo semestre
     {

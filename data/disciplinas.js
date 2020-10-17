@@ -153,6 +153,18 @@ const ob = [
            
         ],
         "trancadoPor": []
+    },
+    {
+        "nome": "Banco de Dados II",
+        "id": "Banco II",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Ronaldo Celso Messias Correia",
+        "email": "ronaldo.correia@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor": []
     }
     // Quarto ano, primeiro semestre
 

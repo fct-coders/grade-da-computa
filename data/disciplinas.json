@@ -235,5 +235,15 @@
         [
         
         ]
+    },
+    {
+        "nome": "Cálculo Numérico",
+        "id": "CN",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "Cássio Machiaveli Oishi",
+        "email": "cassio.oishi@unesp.br",
+        "tranca": ["Programação Linear"],
+        "trancadoPor": ["Cálculo Diferencial e Integral II"]
     }
 ]

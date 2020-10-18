@@ -194,5 +194,15 @@
             "Projeto Científico I"
         ],
         "trancadoPor": ["Estrutura de Dados 1"]
+    },
+    {
+        "nome": "Computação Gráfica",
+        "id": "CG",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Almir Olivette Artero",
+        "email": "almir.artero@unesp.br",
+        "tranca": [],
+        "trancadoPor": ["Álgebra Linear"]
     }
 ]

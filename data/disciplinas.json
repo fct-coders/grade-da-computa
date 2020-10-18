@@ -181,5 +181,18 @@
         "email": "almir.artero@unesp.br",
         "tranca": [],
         "trancadoPor": []
-    }
+    },
+    {
+        "nome": "Banco de Dados I",
+        "id": "Banco I",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "Ronaldo Celso Messias Correia",
+        "email": "ronaldo.correia@unesp.br",
+        "tranca":
+        [
+            "Projeto Científico I"
+        ],
+        "trancadoPor": ["Estrutura de Dados 1"]
+    },
 ]

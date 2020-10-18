@@ -123,6 +123,23 @@
             "Algoritmos e Técnicas de Programação 2"
         ]   
     },
+
+    {
+        "nome": "Cálculo Diferencial e Integral II",
+        "id": "Cálculo II",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Cristiane",
+        "email": "cristiane.nespoli@unesp.br",
+        "tranca": 
+        [ 
+            "Cálculo Numérico" , "Cálculo Diferencial e Integral IV"
+        ],
+        "trancadoPor":
+        [
+            
+        ]   
+    },
     {
         "nome": "Sistemas Operacionais II",
         "id": "SO II",

@@ -31,7 +31,7 @@
 **5.** Salve suas alterações;<br>
 **6.** Navegue até o diretório que você clonou através do seu git CLI;<br>
 **7.** Crie uma branch para a sua alteração: `git checkout -b add-disciplina`;<br>
-**8.** Adicione o arquivo modificado: `git add data/disciplinas.js`;<br>
+**8.** Adicione o arquivo modificado: `git add data/disciplinas.json`;<br>
 **9.** Faça o commit: `git commit -m "feat: add nova disciplina"`;<br>
 **10.** Envie para o GitHub: `git push origin add-disciplina`;<br>
 **11.** Crie sua pull request utilizando o link disponibilizado no output do *git push*.

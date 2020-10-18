@@ -123,6 +123,23 @@
             "Algoritmos e Técnicas de Programação 2"
         ]   
     },
+
+    {
+        "nome": "Cálculo Diferencial e Integral II",
+        "id": "Cálculo II",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Cristiane",
+        "email": "cristiane.nespoli@unesp.br",
+        "tranca": 
+        [ 
+            "Cálculo Numérico" , "Cálculo Diferencial e Integral IV"
+        ],
+        "trancadoPor":
+        [
+            
+        ]   
+    },
     {
         "nome": "Sistemas Operacionais II",
         "id": "SO II",
@@ -211,6 +228,16 @@
         "trancadoPor": ["Estrutura de Dados 1"]
     },
     {
+        "nome": "Computação Gráfica",
+        "id": "CG",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Almir Olivette Artero",
+        "email": "almir.artero@unesp.br",
+        "tranca": [],
+        "trancadoPor": ["Álgebra Linear"]
+    },
+    {
         "nome": "Arquitetura de Computadores",
         "id": "Arquitetura",
         "ano": "2",
@@ -241,5 +268,35 @@
         [
             "Cálculo Diferencial e Integral I"
         ]
+    },
+    {
+        "nome": "Programação Orientada a Objetos 1",
+        "id": "POO1",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Danilo Eler",
+        "email": "danilo.eler@unesp.br",
+        "tranca": ["Engenharia de Software I"],
+        "trancadoPor": ["Algoritmos e Técnicas de Programação I"]
+    },
+    {
+        "nome": "Algebra Linear",
+        "id": "Algebra",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Cassio Machiaveli Oishi",
+        "email": "cassio.oishi@unesp.br",
+        "tranca": ["Computaçao grafica"],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Compiladores",
+        "id": "Compiladores",
+        "ano": "4",
+        "semestre": "2",
+        "docente": "Celso Olivete",
+        "email": "celso.olivete@unesp.br",
+        "tranca": [ ],
+        "trancadoPor": [ ]
     }
 ]

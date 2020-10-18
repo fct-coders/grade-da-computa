@@ -225,5 +225,21 @@
         [
         
         ]
+    },
+    {
+        "nome": "Cálculo Diferencial e Integral III",
+        "id": "Cálculo III",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Marcelo Messias",
+        "email": "marcelo.messias1@unesp.br",
+        "tranca":
+        [
+            
+        ],
+        "trancadoPor":
+        [
+            "Cálculo Diferencial e Integral I"
+        ]
     }
 ]

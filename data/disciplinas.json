@@ -365,16 +365,12 @@
     },
     {
         "nome": "Cálculo Diferencial e Integral I",
-        "id": "Calculo I",
+        "id": "Cálculo I",
         "ano": "1",
         "semestre": "2",
-        "docente": "Cristiane Nespoli De Oliveira",
+        "docente": "Cristiane Nespoli de Oliveira",
         "email": "cristiane.nespoli@unesp.br",
-        "tranca":
-        [
-            "Cálculo Diferencial e Integral II"
-            "Probabilidade e Estatística II"
-        ],
-        "trancadoPor":[]
-    }
+        "tranca": [ ],
+        "trancadoPor": [ ]
+    },
 ]

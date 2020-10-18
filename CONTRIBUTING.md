@@ -4,7 +4,7 @@
 
 **1.** Faça o seu próprio fork do repositório.<br>
 **2.** Clone o seu fork `git clone https://github.com/SEU-NOME/computa-full-fct-unesp.git`;<br>
-**3.** Abra o arquivo `data/disciplinas.js` com um editor de texto de sua escolha;<br>
+**3.** Abra o arquivo `data/disciplinas.json` com um editor de texto de sua escolha;<br>
 **4.** Siga o template para adicionar uma disciplina, não se esqueça de posicioná-la adequadamente no código:<br>
 ```json
 {

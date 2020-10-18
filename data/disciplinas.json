@@ -235,5 +235,15 @@
         [
         
         ]
+    },
+    {
+        "nome": "Programação Orientada a Objetos 1",
+        "id": "POO1",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Danilo Eler",
+        "email": "danilo.eler@unesp.br",
+        "tranca": ["Engenharia de Software I"],
+        "trancadoPor": ["Algoritmos e Técnicas de Programação I"]
     }
 ]

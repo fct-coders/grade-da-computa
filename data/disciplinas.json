@@ -161,5 +161,18 @@
         [
         ],
         "trancadoPor": []
+    },
+    {
+        "nome": "Microprocessadores",
+        "id": "Microprocessadores",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Almir Artero",
+        "email": "almir.artero@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor":
+        []
     }
 ]

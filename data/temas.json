@@ -28,5 +28,15 @@
         "corTabelaPreenchimento": "#384E61",
         "corCards": "#777777",
         "corInfos": "#777777"
+    },
+    {
+        "nome": "Tema Medusa",
+        "corFundo": "#2b9348",
+        "corTextoHeader": "black",
+        "corTextoComum": "black",
+        "corTabelaBorda": "#0b090a",
+        "corTabelaPreenchimento": "#007f5f",
+        "corCards": "#55a630",
+        "corInfos": "#55a630"
     }
 ]

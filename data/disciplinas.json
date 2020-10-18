@@ -210,5 +210,21 @@
         [
         
         ]
+    },
+    {
+        "nome": "Física Experimental",
+        "id": "Fi Exp",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Priscila Alessio Constantino",
+        "email": "priscila.alessio@unesp.br",
+        "tranca":
+        [
+ 
+        ],
+        "trancadoPor": 
+        [
+            
+        ]
     }
 ]

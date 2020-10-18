@@ -34,7 +34,7 @@
     },
     {
         "nome": "Matemática Discreta",
-        "id": "Matemática Discreta",
+        "id": "Discreta",
         "ano": "1",
         "semestre": "1",
         "docente": "Cristiane Nespoli de Oliveira",
@@ -164,15 +164,22 @@
     },
     {
         "nome": "Microprocessadores",
-        "id": "Microprocessadores",
+        "id": "Micro",
         "ano": "2",
         "semestre": "1",
         "docente": "Almir Artero",
         "email": "almir.artero@unesp.br",
-        "tranca":
-        [
-        ],
-        "trancadoPor":
-        []
+        "tranca": [],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Inteligência artificial",
+        "id": "IA",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Almir Olivette Artero",
+        "email": "almir.artero@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
     }
 ]

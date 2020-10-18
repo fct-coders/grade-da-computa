@@ -78,6 +78,20 @@
         [
         ]
     },
+        {
+        "nome": "Circuitos Digitais",
+        "id": "CD",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Maurício Araújo Dias",
+        "email": "ma.dias@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
     {
         "nome": "Estrutura de Dados 1",
         "id": "ED 1",
@@ -121,6 +135,23 @@
         "trancadoPor":
         [
             "Algoritmos e Técnicas de Programação 2"
+        ]   
+    },
+
+    {
+        "nome": "Cálculo Diferencial e Integral II",
+        "id": "Cálculo II",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Cristiane",
+        "email": "cristiane.nespoli@unesp.br",
+        "tranca": 
+        [ 
+            "Cálculo Numérico" , "Cálculo Diferencial e Integral IV"
+        ],
+        "trancadoPor":
+        [
+            
         ]   
     },
     {
@@ -211,6 +242,16 @@
         "trancadoPor": ["Estrutura de Dados 1"]
     },
     {
+        "nome": "Computação Gráfica",
+        "id": "CG",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Almir Olivette Artero",
+        "email": "almir.artero@unesp.br",
+        "tranca": [],
+        "trancadoPor": ["Álgebra Linear"]
+    },
+    {
         "nome": "Arquitetura de Computadores",
         "id": "Arquitetura",
         "ano": "2",
@@ -226,38 +267,114 @@
         
         ]
     },
-	
-	{
+    {
+        "nome": "Engenharia de Software 2",
+        "id": "ES2",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Ingrid Marçal Substituto",
+        "email": "ingrid.marcal@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor": [
+            "Programação Orientada a Objetos 2"
+        ]
+     },
+     {
+        "nome": "Física Experimental",
+        "id": "Fi Exp",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Priscila Alessio Constantino",
+        "email": "priscila.alessio@unesp.br",
+        "tranca":
+        [
+ 
+        ],
+        "trancadoPor": 
+        [
+            
+        ]
+    },
+    {
+      	"nome": "Desenvolvimento Web com Javascript",
+        "id": "Javascript",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Wilson Marcilio (substituto)",
+        "email": "wilson.marcilio@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Cálculo Numérico",
+        "id": "CN",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "Cássio Machiaveli Oishi",
+        "email": "cassio.oishi@unesp.br",
+        "tranca": ["Programação Linear"],
+        "trancadoPor": ["Cálculo Diferencial e Integral II"]
+    },
+    {
+        "nome": "Cálculo Diferencial e Integral III",
+        "id": "Cálculo III",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Marcelo Messias",
+        "email": "marcelo.messias1@unesp.br",
+        "tranca":
+        [
+            
+        ],
+        "trancadoPor":
+        [
+            "Cálculo Diferencial e Integral I"
+        ]
+    },
+    {
+        "nome": "Programação Orientada a Objetos 1",
+        "id": "POO1",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Danilo Eler",
+        "email": "danilo.eler@unesp.br",
+        "tranca": ["Engenharia de Software I"],
+        "trancadoPor": ["Algoritmos e Técnicas de Programação I"]
+    },
+    {
+        "nome": "Algebra Linear",
+        "id": "Algebra",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Cassio Machiaveli Oishi",
+        "email": "cassio.oishi@unesp.br",
+        "tranca": ["Computaçao grafica"],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Compiladores",
+        "id": "Compiladores",
+        "ano": "4",
+        "semestre": "2",
+        "docente": "Celso Olivete",
+        "email": "celso.olivete@unesp.br",
+        "tranca": [ ],
+        "trancadoPor": [ ]
+    },
+    {
         "nome": "Cálculo Diferencial e Integral I",
-        "id": "Calculo 1",
+        "id": "Calculo I",
         "ano": "1",
         "semestre": "2",
         "docente": "Cristiane Nespoli De Oliveira",
         "email": "cristiane.nespoli@unesp.br",
         "tranca":
         [
-        	"Cálculo Diferencial e Integral II"
-		"Probabilidade e Estatística II"
-        ],
-        "trancadoPor":
-		[
-		
-		]
-},
-    {
-        "nome": "Probabilidade e Estatística I",
-        "id": "Probabilidade I",
-        "ano": "2",
-        "semestre": "1",
-        "docente": "Mauricio Araujo Dias",
-        "email": "ma.dias@unesp.br",
-        "tranca":
-        [
+            "Cálculo Diferencial e Integral II"
             "Probabilidade e Estatística II"
         ],
-        "trancadoPor": 
-        [
-			"Fundamentos de Matemática"
-        ]
+        "trancadoPor":[]
     }
 ]

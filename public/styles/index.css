@@ -60,10 +60,20 @@ select {
   cursor: pointer;
   transition: background 0.2s;
   border: 0;
+  appearance: none;
+  background-image: url('../imagens/dropdownitem.png');
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: 95%;
 }
 
 select:hover {
-  background: rgb(255, 249, 249);
+  background: rga(245, 244, 244, 0.979);
+  appearance: none;
+  background-image: url('../imagens/dropdownitem.png');
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: 95%;
 }
 
 footer{

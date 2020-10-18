@@ -252,5 +252,15 @@
         [
         
         ]
+    },
+    {
+        "nome": "Compiladores",
+        "id": "Compiladores",
+        "ano": "4",
+        "semestre": "2",
+        "docente": "Celso Olivete",
+        "email": "celso.olivete@unesp.br",
+        "tranca": [ ],
+        "trancadoPor": [ ]
     }
 ]

@@ -225,5 +225,19 @@
         [
         
         ]
+    },
+    {
+        "nome": "Engenharia de Software 2",
+        "id": "ES2",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Ingrid Marçal Substituto",
+        "email": "ingrid.marcal@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor": [
+            "Programação Orientada a Objetos 2"
+        ]
     }
 ]

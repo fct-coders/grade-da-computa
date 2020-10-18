@@ -78,6 +78,20 @@
         [
         ]
     },
+        {
+        "nome": "Circuitos Digitais",
+        "id": "CD",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Maurício Araújo Dias",
+        "email": "ma.dias@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
     {
         "nome": "Estrutura de Dados 1",
         "id": "ED 1",

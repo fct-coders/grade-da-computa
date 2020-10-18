@@ -235,5 +235,15 @@
         [
         
         ]
+    },
+    {
+	"nome": "Desenvolvimento Web com Javascript",
+        "id": "Javascript",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Wilson Marcilio (substituto)",
+        "email": "wilson.marcilio@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
     }
 ]

@@ -225,5 +225,43 @@
         [
         
         ]
+    },
+	
+	{
+        "nome": "Cálculo Diferencial e Integral I",
+        "id": "Calculo 1",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Cristiane Nespoli De Oliveira",
+        "email": "cristiane.nespoli@unesp.br",
+        "tranca":
+        [
+            "Cálculo Diferencial e Integral II"
+			"Probabilidade e Estatística II"
+        ],
+        "trancadoPor":
+		[
+		
+		]
+    }
+]
+},
+	
+	{
+        "nome": "Cálculo Diferencial e Integral I",
+        "id": "Calculo 1",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Cristiane Nespoli De Oliveira",
+        "email": "cristiane.nespoli@unesp.br",
+        "tranca":
+        [
+            "Cálculo Diferencial e Integral II"
+			"Probabilidade e Estatística II"
+        ],
+        "trancadoPor":
+		[
+		
+		]
     }
 ]

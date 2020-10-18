@@ -1,26 +1,4 @@
-/*
-
-    Template:
-    {
-        "nome": "Nome da Disciplina",
-        "id": "Abreviação do Nome se possível",
-        "ano": "X",
-        "semestre": "Y",
-        "docente": "Nome do Docente Efetivo ou "Substituto" se não houver docente efetivo",
-        "email": "email@unesp.br do docente efetivo",
-        "tranca":
-        [
-            "Lista de disciplinas que essa matéria tranca",
-            "Ou vazio se não tranca nada"
-        ],
-        "trancadoPor": "Mesma coisa do campo "tranca:" "
-    }
-
-*/
-
-const ob = [
-
-    // Primeiro ano, primeiro semestre
+[
     {
         "nome": "Algoritmos e Técnicas de Programação 1",
         "id": "ATP 1",
@@ -70,8 +48,6 @@ const ob = [
 
         ]
     },
-
-    // Primeiro ano, segundo semestre
     {
         "nome": "Algoritmos e Técnicas de Programação 2",
         "id": "ATP 2",
@@ -87,8 +63,6 @@ const ob = [
         [
         ]
     },
-
-    //Segundo ano, primeiro semestre
     {
         "nome": "Estrutura de Dados 1",
         "id": "ED 1",
@@ -105,8 +79,6 @@ const ob = [
             "Estrutura de Dados 1"
         ]
     },
-
-    // Segundo ano, segundo semestre
     {
         "nome": "Estrutura de Dados 2",
         "id": "ED 2",
@@ -121,7 +93,6 @@ const ob = [
         [
         ]
     },
-
     {
         "nome": "Projeto e Análise de Algoritmos",
         "id": "PAA",
@@ -135,11 +106,8 @@ const ob = [
         "trancadoPor":
         [
             "Algoritmos e Técnicas de Programação 2"
-        ]
+        ]   
     },
-    
-    // Terceiro ano, primeiro semestre
-
     {
         "nome": "Sistemas Operacionais II",
         "id": "SO II",
@@ -169,9 +137,6 @@ const ob = [
         [
         ]
     },
-    
-    // Terceiro ano, segundo semestre
-
     {
         "nome": "Redes de Computadores II",
         "id": "Redes II",
@@ -197,12 +162,4 @@ const ob = [
         ],
         "trancadoPor": []
     }
-    // Quarto ano, primeiro semestre
-
-    
-    // Quarto ano, segundo semestre
-
 ]
-
-const DicObj = JSON.stringify(ob);
-localStorage.setItem('Diciplinas', DicObj);

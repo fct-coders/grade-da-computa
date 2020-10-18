@@ -1,14 +1,19 @@
 const select = document.getElementById('temas');
 
-function getTemas() {
-  const temas = JSON.parse(localStorage.getItem('temasArray'));
-
-  for (let i = 0; i < temas.length; i++) {
-    let option = document.createElement('option');
-    option.value = JSON.stringify(temas[i]);
-    option.textContent = temas[i].nome;
-    select.appendChild(option);
-  }
+async function getTemas() {
+  return new Promise((resolve, reject) => {
+    fetch('./data/temas.json')
+    .then((response) => response.json())
+    .then((temas) => {
+      temas.forEach((tema) => {
+        let option = document.createElement('option');
+        option.value = JSON.stringify(tema);
+        option.textContent = tema.nome;
+        select.appendChild(option);
+        resolve()
+      });
+    }).catch(reject);
+  })
 }
 
 function seta_tema(tema) {
@@ -39,8 +44,8 @@ select.addEventListener('change', function () {
 });
 
 
-function carrega_tema() {
-  getTemas();
+async function carrega_tema() {
+  await getTemas();
   const tema = localStorage.getItem('temaSelecionado');
   if (tema) {//carrega o tema se ja foi selecionado 
     seta_tema(tema);

@@ -6,7 +6,7 @@ function desaparece_info(info) {
     document.getElementById(info).style.display = 'none';
 }
 
-function cria_diciplinas(obj, x) {
+function cria_disciplinas(obj, x) {
     //cria card
     const card = document.createElement("div");
     card.setAttribute("class", "materia");
@@ -54,17 +54,19 @@ function cria_diciplinas(obj, x) {
 }
 
 function gera_tabela() {
-    const diciplinas = JSON.parse(localStorage.getItem("Diciplinas"));
-    let x, y, componente;
-    for (let i = 0; i < diciplinas.length; i++) {
-        x = parseInt(diciplinas[i].ano);
-        y = parseInt(diciplinas[i].semestre);
-        componente = cria_diciplinas(diciplinas[i], i);
-        if(x === 1) {
-            componente.lastChild.style.float = 'left'
-        }else{
-            componente.lastChild.style.float = 'right'
-        }
-        document.querySelectorAll("th")[x + y * 4 + y].querySelector("div").appendChild(componente);
-    }
+    fetch('./data/disciplinas.json')
+        .then((response) => response.json())
+        .then((disciplinas) => {
+            disciplinas.forEach((disciplina) => {
+                x = parseInt(disciplina.ano);
+                y = parseInt(disciplina.semestre);
+                componente = cria_disciplinas(disciplina, i);
+                if (x === 1) {
+                    componente.lastChild.style.float = 'left'
+                } else {
+                    componente.lastChild.style.float = 'right'
+                }
+                document.querySelectorAll("th")[x + y * 4 + y].querySelector("div").appendChild(componente);
+            });
+        });
 }

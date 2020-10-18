@@ -123,6 +123,23 @@
             "Algoritmos e Técnicas de Programação 2"
         ]   
     },
+
+    {
+        "nome": "Cálculo Diferencial e Integral II",
+        "id": "Cálculo II",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Cristiane",
+        "email": "cristiane.nespoli@unesp.br",
+        "tranca": 
+        [ 
+            "Cálculo Numérico" , "Cálculo Diferencial e Integral IV"
+        ],
+        "trancadoPor":
+        [
+            
+        ]   
+    },
     {
         "nome": "Sistemas Operacionais II",
         "id": "SO II",
@@ -243,8 +260,17 @@
         "semestre": "2",
         "docente": "Cassio Machiaveli Oishi",
         "email": "cassio.oishi@unesp.br",
-        "tranca":
-        [ "Computaçao grafica"],
+        "tranca": ["Computaçao grafica"],
         "trancadoPor": []
+    },
+    {
+        "nome": "Compiladores",
+        "id": "Compiladores",
+        "ano": "4",
+        "semestre": "2",
+        "docente": "Celso Olivete",
+        "email": "celso.olivete@unesp.br",
+        "tranca": [ ],
+        "trancadoPor": [ ]
     }
 ]

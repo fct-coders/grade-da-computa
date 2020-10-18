@@ -235,5 +235,16 @@
         [
         
         ]
+    },
+    {
+        "nome": "Algebra Linear",
+        "id": "Algebra",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Cassio Machiaveli Oishi",
+        "email": "cassio.oishi@unesp.br",
+        "tranca":
+        [ "Computaçao grafica"],
+        "trancadoPor": []
     }
 ]

@@ -49,6 +49,21 @@
         ]
     },
     {
+        "nome": "Física para Computação",
+        "id": "Física",
+        "ano": "1",
+        "semestre": "1",
+        "docente": "Priscila Alessio Constantino",
+        "email": "priscila.alessio@unesp.br",
+        "tranca":
+        [
+            
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
+    {
         "nome": "Algoritmos e Técnicas de Programação 2",
         "id": "ATP 2",
         "ano": "1",

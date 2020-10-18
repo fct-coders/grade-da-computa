@@ -194,5 +194,21 @@
             "Projeto Científico I"
         ],
         "trancadoPor": ["Estrutura de Dados 1"]
+    },
+    {
+        "nome": "Arquitetura de Computadores",
+        "id": "Arquitetura",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Mauricio Araujo Dias",
+        "email": "ma.dias@unesp.br",
+        "tranca":
+        [
+            
+        ],
+        "trancadoPor": 
+        [
+        
+        ]
     }
 ]

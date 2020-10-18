@@ -38,5 +38,17 @@
         "corTabelaPreenchimento": "#007f5f",
         "corCards": "#55a630",
         "corInfos": "#55a630"
+    },
+
+    {
+        "nome": "Tema Unesp",
+        "corFundo": "#0093DD",
+        "corTextoHeader": "white",
+        "corTextoComum": "#000000",
+        "corTabelaBorda": "#16316F",
+        "corTabelaPreenchimento": "white",
+        "corCards": "#0093DD",
+        "corInfos": "#0093DD"
     }
+
 ]

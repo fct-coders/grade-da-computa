@@ -161,5 +161,17 @@
         [
         ],
         "trancadoPor": []
+    },
+    {
+        "nome": "Inteligência artificial",
+        "id": "IA",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "Almir Olivette Artero",
+        "email": "almir.artero@unesp.br",
+        "tranca":
+        [
+        ],
+        "trancadoPor": []
     }
 ]

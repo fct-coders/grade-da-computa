@@ -243,5 +243,21 @@
 		[
 		
 		]
+},
+    {
+        "nome": "Probabilidade e Estatística I",
+        "id": "Probabilidade I",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Mauricio Araujo Dias",
+        "email": "ma.dias@unesp.br",
+        "tranca":
+        [
+            "Probabilidade e Estatística II"
+        ],
+        "trancadoPor": 
+        [
+			"Fundamentos de Matemática"
+        ]
     }
 ]

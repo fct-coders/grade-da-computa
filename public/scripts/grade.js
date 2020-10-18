@@ -60,7 +60,7 @@ function gera_tabela() {
             disciplinas.forEach((disciplina) => {
                 x = parseInt(disciplina.ano);
                 y = parseInt(disciplina.semestre);
-                componente = cria_disciplinas(disciplina, i);
+                componente = cria_disciplinas(disciplina, disciplinas.indexOf(disciplina));
                 if (x === 1) {
                     componente.lastChild.style.float = 'left'
                 } else {
@@ -70,3 +70,4 @@ function gera_tabela() {
             });
         });
 }
+

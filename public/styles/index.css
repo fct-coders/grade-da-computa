@@ -77,8 +77,8 @@ select:hover {
 }
 
 footer{
-  position: absolute;
-  top: 100vh;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   text-align: center;
   padding: 12px;

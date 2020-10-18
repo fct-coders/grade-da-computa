@@ -8,7 +8,7 @@ tr {
 table {
   width: 95vw;
   height: 85vw;
-  margin: 4rem auto;
+  margin: auto auto 15rem auto;
 }
 
 .semestre1,
@@ -89,6 +89,7 @@ th {
   table{
     height: 30vw;
     width: 80vw;
+    min-width: 100vh;
   }
   .materia {
     width: 10vw;

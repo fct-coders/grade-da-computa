@@ -13,7 +13,12 @@
   </head>
   <body onload="gera_tabela(),carrega_tema()">
     <nav>
-    <img onclick="acao()" id="cacicID" class="logo" src="public/imagens/logo-cacic.png" />
+      <img
+        onclick="acao()"
+        id="cacicID"
+        class="logo"
+        src="public/imagens/logo-cacic.png"
+      />
       <h1>Grade de Disciplinas da Computa FCT-Unesp</h1>
 
       <div class="seleciona-modo" style="width: 200px">
@@ -21,53 +26,55 @@
       </div>
     </nav>
 
-    <table>
-      <tr>
-        <th></th>
-        <th class="titulo-th">1º ano</th>
-        <th class="titulo-th">2º ano</th>
-        <th class="titulo-th">3º ano</th>
-        <th class="titulo-th">4º ano</th>
-      </tr>
-      <tr>
-        <th>1º semestre</th>
-        <th>
-          <div class="semestre1"></div>
-        </th>
-        <th>
-          <div class="semestre1"></div>
-        </th>
-        <th>
-          <div class="semestre1"></div>
-        </th>
-        <th>
-          <div class="semestre1"></div>
-        </th>
-      </tr>
-      <tr>
-        <th>2º semestre</th>
-        <th>
-          <div class="semestre2"></div>
-        </th>
-        <th>
-          <div class="semestre2"></div>
-        </th>
-        <th>
-          <div class="semestre2"></div>
-        </th>
-        <th>
-          <div class="semestre2"></div>
-        </th>
-      </tr>
-    </table>
-    
+    <main>
+      <table>
+        <tr>
+          <th></th>
+          <th class="titulo-th">1º ano</th>
+          <th class="titulo-th">2º ano</th>
+          <th class="titulo-th">3º ano</th>
+          <th class="titulo-th">4º ano</th>
+        </tr>
+        <tr>
+          <th>1º semestre</th>
+          <th>
+            <div class="semestre1"></div>
+          </th>
+          <th>
+            <div class="semestre1"></div>
+          </th>
+          <th>
+            <div class="semestre1"></div>
+          </th>
+          <th>
+            <div class="semestre1"></div>
+          </th>
+        </tr>
+        <tr>
+          <th>2º semestre</th>
+          <th>
+            <div class="semestre2"></div>
+          </th>
+          <th>
+            <div class="semestre2"></div>
+          </th>
+          <th>
+            <div class="semestre2"></div>
+          </th>
+          <th>
+            <div class="semestre2"></div>
+          </th>
+        </tr>
+      </table>
+    </main>
+
     <footer>
-      <p>Para contribuir com essa página, acesse o repositório : </p>
+      <p>Para contribuir com essa página, acesse o repositório :</p>
       <a href="https://github.com/fct-coders/grade-da-computa" target="blank">
         https://github.com/fct-coders/grade-da-computa
       </a>
     </footer>
-    
+
     <script src="public/scripts/grade.js"></script>
     <script src="public/scripts/mudatema.js"></script>
     <script src="public/scripts/system.js"></script>

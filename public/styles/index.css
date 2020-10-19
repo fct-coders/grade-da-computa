@@ -10,7 +10,7 @@
 
 body {
   background-color: #efefef;
-  font: 400 1.8rem/1 "Roboto", "sans-serif";
+  font: 400 1.8rem/1 "Roboto", sans-serif;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -77,14 +77,11 @@ select:hover {
 }
 
 footer{
-  position: fixed;
-  bottom: 0;
   width: 100%;
   text-align: center;
   padding: 12px;
   background: #BBBBFF;
   font: 400 clamp(1rem, 3vw, 1.4rem) / 1.5 "Roboto", sans-serif;
-
 }
 
 footer a:visited, a {

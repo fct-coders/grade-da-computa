@@ -8,7 +8,7 @@ tr {
 table {
   width: 95vw;
   height: 85vw;
-  margin: auto auto 15rem auto;
+  margin: 2rem auto 15rem auto;
 }
 
 .semestre1,
@@ -42,8 +42,7 @@ th {
   text-align: center;
   border: solid 2px black;
   cursor: pointer;
-  font-family:"Roboto", "sans-serif";
-
+  font-family:"Roboto", sans-serif;
 }
 .materia:hover {
   box-shadow: 5px 2px 20px rgba(36, 36, 36, 0.616);
@@ -89,7 +88,6 @@ th {
   table{
     height: 30vw;
     width: 80vw;
-    min-width: 100vh;
   }
   .materia {
     width: 10vw;

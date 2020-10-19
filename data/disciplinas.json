@@ -276,8 +276,8 @@
         "semestre": "2",
         "docente": "Celso Olivete",
         "email": "celso.olivete@unesp.br",
-        "tranca": [ ],
-        "trancadoPor": [ ]
+        "tranca": [],
+        "trancadoPor": []
     },
     {
         "nome": "Programação Linear",
@@ -286,7 +286,17 @@
         "semestre": "2",
         "docente": "Silvely Nogueira de Almeida Salomão Néia",
         "email": "silvely.salomao-neia@unesp.br",
-        "tranca": [ ],
-        "trancadoPor": [ "Cálculo Numérico" ]
+        "tranca": [],
+        "trancadoPor": ["Cálculo Numérico"]
+    },
+    {
+        "nome": "Probabilidade e Estatística II",
+        "id": "Proba II",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Substituto",
+        "email": "substituto@unesp.br",
+        "tranca": [],
+        "trancadoPor": ["Cálculo Diferencial e Integral I"]
     }
 ]

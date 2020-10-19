@@ -260,6 +260,16 @@
         "trancadoPor": []
     },
     {
+        "nome": "Programação Orientada a Objetos II",
+        "id": "POO II",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Ingrid Marçal (substituto)",
+        "email": "ingrid.marcal@unesp.br",
+        "tranca": ["Engenharia de Software II"],
+        "trancadoPor": []
+    },
+    {
         "nome": "Compiladores",
         "id": "Compiladores",
         "ano": "4",

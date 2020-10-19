@@ -107,6 +107,21 @@ const ob = [
     },
 
     {
+        "nome": "Programação Orientada a Objetos II",
+        "id": "POO 2",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Ingrid Marçal",
+        "email": "in.marcal@gmail.com",
+        "tranca":
+        [ 
+        ],
+        "trancadoPor":
+        [
+        ]
+    },
+
+    {
         "nome": "Projeto e Análise de Algoritmos",
         "id": "PAA",
         "ano": "2",

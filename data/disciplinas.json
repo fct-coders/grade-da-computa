@@ -273,7 +273,7 @@
         "nome": "Compiladores",
         "id": "Compiladores",
         "ano": "4",
-        "semestre": "2",
+        "semestre": "1",
         "docente": "Celso Olivete",
         "email": "celso.olivete@unesp.br",
         "tranca": [],
@@ -283,7 +283,7 @@
         "nome": "Programação Linear",
         "id": "Prog. Linear",
         "ano": "4",
-        "semestre": "2",
+        "semestre": "1",
         "docente": "Silvely Nogueira de Almeida Salomão Néia",
         "email": "silvely.salomao-neia@unesp.br",
         "tranca": [],
@@ -298,5 +298,17 @@
         "email": "substituto@unesp.br",
         "tranca": [],
         "trancadoPor": ["Cálculo Diferencial e Integral I"]
+    },
+    {
+        "nome": "Interface Homem-Máquina",
+        "id": "IHM",
+        "ano": "4",
+        "semestre": "2",
+        "docente": "Substituto",
+        "email": "substituto@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
     }
+
+
 ]

@@ -49,6 +49,17 @@
         "corTabelaPreenchimento": "white",
         "corCards": "#0093DD",
         "corInfos": "#0093DD"
+    },
+
+    {
+        "nome": "Tema Laranja",
+        "corFundo": "#ffa352",
+        "corTextoHeader": "white",
+        "corTextoComum": "black",
+        "corTabelaBorda": "white",
+        "corTabelaPreenchimento": "#fc7600",
+        "corCards": "#0093DD",
+        "corInfos": "white"
     }
 
 ]

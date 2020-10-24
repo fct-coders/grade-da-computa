@@ -308,6 +308,16 @@
         "email": "substituto@unesp.br",
         "tranca": [],
         "trancadoPor": []
+    },
+    {
+        "nome": "Segurança da Informação",
+        "id": "SI",
+        "ano": "4",
+        "semestre": "2",
+        "docente": "Helton Molina Sapia",
+        "email": "helton.sapia@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
     }
 
 

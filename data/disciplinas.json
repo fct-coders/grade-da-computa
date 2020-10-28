@@ -328,6 +328,16 @@
         "email": "marcelo.messias1@unesp.br",
         "tranca": [],
         "trancadoPor": []
+    },
+        {
+        "nome": "Linguagens de Programação",
+        "id": "LP",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Ingrid Marçal (substituto)",
+        "email": "ingrid.marcal@unesp.br",
+        "tranca": ["Compiladores","Linguagens Formais e Teoria da computação"],
+        "trancadoPor": []
     }
 
 ]

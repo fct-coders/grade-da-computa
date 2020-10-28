@@ -318,7 +318,16 @@
         "email": "helton.sapia@unesp.br",
         "tranca": [],
         "trancadoPor": []
+    },
+    {
+        "nome": "Sistemas Operacionais I",
+        "id": "SO I",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Mauricio Araújo Dias",
+        "email": "marcelo.messias1@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
     }
-
 
 ]

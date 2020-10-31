@@ -50,7 +50,6 @@
         "corCards": "#0093DD",
         "corInfos": "#0093DD"
     },
-
     {
         "nome": "Tema Laranja",
         "corFundo": "#ffa352",
@@ -60,6 +59,16 @@
         "corTabelaPreenchimento": "#fc7600",
         "corCards": "#0093DD",
         "corInfos": "white"
+    },
+    {
+        "nome": "Tema Golden Lavanda",
+        "corFundo": "#8637ec",
+        "corTextoHeader": "white",
+        "corTextoComum": "black",
+        "corTabelaBorda": "black",
+        "corTabelaPreenchimento": "#f7d93c",
+        "corCards": "#a647fc",
+        "corInfos": "#b657ff"
     }
 
 ]

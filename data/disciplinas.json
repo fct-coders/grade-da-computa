@@ -318,7 +318,26 @@
         "email": "helton.sapia@unesp.br",
         "tranca": [],
         "trancadoPor": []
+    },
+    {
+        "nome": "Sistemas Operacionais I",
+        "id": "SO I",
+        "ano": "2",
+        "semestre": "2",
+        "docente": "Mauricio Araújo Dias",
+        "email": "ma.dias@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
+    },
+        {
+        "nome": "Linguagens de Programação",
+        "id": "LP",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "Ingrid Marçal (substituto)",
+        "email": "ingrid.marcal@unesp.br",
+        "tranca": ["Compiladores","Linguagens Formais e Teoria da computação"],
+        "trancadoPor": []
     }
-
 
 ]

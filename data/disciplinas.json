@@ -40,6 +40,26 @@
         "trancadoPor": []
     },
     {
+        "nome": "Fundamentos da Matemática",
+        "id": "Matemática",
+        "ano": "1",
+        "semestre": "1",
+        "docente": "Vanessa Avansini Botta Pirani",
+        "email": "vanessa.botta@unesp.br",
+        "tranca": ["Probabilidade e Estatística I"],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Introdução à Ciência da Computação",
+        "id": "ICC",
+        "ano": "1",
+        "semestre": "1",
+        "docente": "Danilo Medeiros Eler",
+        "email": "danilo.eler@unesp.br",
+        "tranca": [],
+        "trancadoPor": []
+    },
+    {
         "nome": "Algoritmos e Técnicas de Programação II",
         "id": "ATP II",
         "ano": "1",
@@ -49,7 +69,37 @@
         "tranca": ["Projeto e Análise de Algoritmos"],
         "trancadoPor": []
     },
-        {
+    {
+        "nome": "Metodologia Científica",
+        "id": "Metodologia",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Helton Molina Sapia",
+        "email": "helton.sapia@unesp.br",
+        "tranca": ["Projeto Científico I"],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Geometria Analítica e Vetores",
+        "id": "G. Analítica",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Em concurso...",
+        "email": "Em concurso...",
+        "tranca": [],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Cálculo Diferencial e Integral I",
+        "id": "Cálculo I",
+        "ano": "1",
+        "semestre": "2",
+        "docente": "Em concurso...",
+        "email": "Em concurso...",
+        "tranca": ["Cálculo Diferencial e Integral III", "Probabilidade e Estatística II"],
+        "trancadoPor": []
+    },
+    {
         "nome": "Circuitos Digitais",
         "id": "Circuitos",
         "ano": "1",

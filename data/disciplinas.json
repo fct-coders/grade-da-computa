@@ -379,7 +379,7 @@
         "tranca": [],
         "trancadoPor": []
     },
-        {
+    {
         "nome": "Linguagens de Programação",
         "id": "LP",
         "ano": "2",
@@ -387,6 +387,16 @@
         "docente": "Ingrid Marçal (substituto)",
         "email": "ingrid.marcal@unesp.br",
         "tranca": ["Compiladores","Linguagens Formais e Teoria da computação"],
+        "trancadoPor": []
+    },
+    {
+        "nome": "Engenharia de Software I",
+        "id": "ES1",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "Ingrid Marçal (substituto)",
+        "email": "ingrid.marcal@unesp.br",
+        "tranca": ["TCC I"],
         "trancadoPor": []
     }
 

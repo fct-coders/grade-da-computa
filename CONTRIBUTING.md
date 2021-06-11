@@ -13,21 +13,15 @@
   "id": "Abreviação do Nome se possível",
   "ano": "X",
   "semestre": "Y",
-  "docente": "Nome do Docente Efetivo ou \"Substituto\" se não houver docente efetivo",
-  "email": "email@unesp.br do docente efetivo",
+  "docente": "Não estamos adicionando os nomes no momento, utilize ~",
+  "email": "Não estamos adicionando os emails no momento, utilize ~",
   "tranca": [
     "Lista de disciplinas que essa matéria tranca",
     "Ou vazio se não tranca nada"
   ],
-  "trancadoPor": "Mesma coisa do campo \"tranca:\" "
+  "trancadoPor": "Mesma coisa do campo "tranca:" "
 }
 ```
-
-> ℹ️ INFO: Note os `\"` antes de algumas aspas. Ao adicionarmos uma barra invertida (\\), estamos anulando o efeito do caractere seguinte.
-> Neste caso, sem as barras invertidas, ocorreria um erro de sintaxe, pois as opções que as contém só aceitam um (1) valor. Ao deixar uma palavra fora das aspas, você estaria criando mais um valor.
-> Portanto, caso queria utilizar uma aspa no texto, use `\"`.
->
-> Aprenda mais sobre caracteres de escape visitando [esta página da Wikipédia](https://pt.wikipedia.org/wiki/Caractere_de_escape) e sobre [a sintaxe de json aqui (em inglês)](https://www.w3schools.com/js/js_json_syntax.asp).
 
 **5.** Salve suas alterações;<br>
 **6.** Navegue até o diretório que você clonou através do seu git CLI;<br>

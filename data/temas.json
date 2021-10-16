@@ -39,7 +39,16 @@
         "corCards": "#55a630",
         "corInfos": "#55a630"
     },
-
+    {
+        "nome": "Tema Scary Collor Pallete",
+        "corFundo": "#7c0200",
+        "corTextoHeader": "#03211c",
+        "corTextoComum": "#03211c",
+        "corTabelaBorda": "#03342e",
+        "corTabelaPreenchimento": "#7d9267",
+        "corCards": "#657b50",
+        "corInfos": "#03211c"
+    },
     {
         "nome": "Tema Unesp",
         "corFundo": "#0093DD",
@@ -79,6 +88,25 @@
         "corTabelaPreenchimento": "#2b3531",
         "corCards": "#f74700",
         "corInfos": "white"
+    },
+    {
+        "nome": "Tema Comfy Purple",
+        "corFundo": "#504459",
+        "corTextoHeader": "white",
+        "corTextoComum": "white",
+        "corTabelaBorda": "#e69199",
+        "corTabelaPreenchimento": "#D1BEAA",
+        "corCards": "#504459",
+        "corInfos": "#504459"
+    },
+    {
+        "nome": "Tema Azul Turquesa",
+        "corFundo": "#008080",
+        "corTextoHeader": "white",
+        "corTextoComum": "black",
+        "corTabelaBorda": "white",
+        "corTabelaPreenchimento": "#48D1CC",
+        "corCards": "#00FFFF",
+        "corInfos": "#008080"
     }
-
 ]

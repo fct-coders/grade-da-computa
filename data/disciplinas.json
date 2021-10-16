@@ -390,6 +390,16 @@
         "trancadoPor": []
     },
     {
+        "nome": "Cálculo Diferencial e Integral IV",
+        "id": "Cálculo IV",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["Cálculo Diferencial e Integral II"]
+    },
+    {
         "nome": "Engenharia de Software I",
         "id": "ES I",
         "ano": "3",
@@ -398,6 +408,16 @@
         "email": "~",
         "tranca": ["TCC I"],
         "trancadoPor": []
+    },
+    {
+        "nome": "Linguagens Formais e Teoria da Computação",
+        "id": "LFTC",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["LP"]
     }
 
 ]

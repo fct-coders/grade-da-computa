@@ -69,6 +69,16 @@
         "corTabelaPreenchimento": "#f7d93c",
         "corCards": "#a647fc",
         "corInfos": "#b657ff"
+    },
+    {
+        "nome": "Tema Azul Turquesa",
+        "corFundo": "#008080",
+        "corTextoHeader": "white",
+        "corTextoComum": "black",
+        "corTabelaBorda": "white",
+        "corTabelaPreenchimento": "#48D1CC",
+        "corCards": "#00FFFF",
+        "corInfos": "#008080"
     }
 
 ]

@@ -69,6 +69,16 @@
         "corTabelaPreenchimento": "#f7d93c",
         "corCards": "#a647fc",
         "corInfos": "#b657ff"
+    },
+    {
+        "nome": "Tema Comfy Purple",
+        "corFundo": "#504459",
+        "corTextoHeader": "white",
+        "corTextoComum": "white",
+        "corTabelaBorda": "#e69199",
+        "corTabelaPreenchimento": "#D1BEAA",
+        "corCards": "#504459",
+        "corInfos": "#504459"
     }
 
 ]

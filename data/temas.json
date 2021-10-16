@@ -39,7 +39,16 @@
         "corCards": "#55a630",
         "corInfos": "#55a630"
     },
-
+    {
+        "nome": "Tema Scary Collor Pallete",
+        "corFundo": "#7c0200",
+        "corTextoHeader": "#03211c",
+        "corTextoComum": "#03211c",
+        "corTabelaBorda": "#03342e",
+        "corTabelaPreenchimento": "#7d9267",
+        "corCards": "#657b50",
+        "corInfos": "#03211c"
+    },
     {
         "nome": "Tema Unesp",
         "corFundo": "#0093DD",

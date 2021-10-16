@@ -80,6 +80,16 @@
         "corInfos": "#b657ff"
     },
     {
+        "nome": "Tema Hacktober 2021",
+        "corFundo": "#f4f0e1",
+        "corTextoHeader": "f74700",
+        "corTextoComum": "#eab308",
+        "corTabelaBorda": "#91a88c",
+        "corTabelaPreenchimento": "#2b3531",
+        "corCards": "#f74700",
+        "corInfos": "white"
+    },
+    {
         "nome": "Tema Comfy Purple",
         "corFundo": "#504459",
         "corTextoHeader": "white",

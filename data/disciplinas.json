@@ -398,6 +398,16 @@
         "email": "~",
         "tranca": ["TCC I"],
         "trancadoPor": []
+    },
+    {
+        "nome": "Linguagens Formais e Teoria da Computação",
+        "id": "LFTC",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["LP"]
     }
 
 ]

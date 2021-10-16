@@ -390,6 +390,16 @@
         "trancadoPor": []
     },
     {
+        "nome": "Cálculo Diferencial e Integral IV",
+        "id": "Cálculo IV",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["Cálculo Diferencial e Integral II"]
+    },
+    {
         "nome": "Engenharia de Software I",
         "id": "ES I",
         "ano": "3",

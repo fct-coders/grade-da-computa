@@ -108,5 +108,15 @@
         "corTabelaPreenchimento": "#48D1CC",
         "corCards": "#00FFFF",
         "corInfos": "#008080"
+    },
+    {
+        "nome": "Tema Horrível",
+        "corFundo": "#ff0000",
+        "corTextoHeader": "#f7931e",
+        "corTextoComum": "#fcee21",
+        "corTabelaBorda": "#39b54a",
+        "corTabelaPreenchimento": "#29abe2",
+        "corCards": "#2e3192",
+        "corInfos": "#662d91"
     }
 ]

@@ -108,5 +108,35 @@
         "corTabelaPreenchimento": "#48D1CC",
         "corCards": "#00FFFF",
         "corInfos": "#008080"
+    },
+    {
+        "nome": "Tema Horrível",
+        "corFundo": "#ff0000",
+        "corTextoHeader": "#f7931e",
+        "corTextoComum": "#fcee21",
+        "corTabelaBorda": "#39b54a",
+        "corTabelaPreenchimento": "#29abe2",
+        "corCards": "#2e3192",
+        "corInfos": "#662d91"
+    },
+    {
+        "nome": "Tema Dracula",
+        "corFundo": "#282a36",
+        "corTextoHeader": "#f8f8f2",
+        "corTextoComum": "#f8f8f2",
+        "corTabelaBorda": "#bd93f9",
+        "corTabelaPreenchimento": "#44475a",
+        "corCards": "#282a36",
+        "corInfos": "#6272a4"
+    },
+    {      
+        "nome": "Vinho",
+        "corFundo": "#800000",
+        "corTextoHeader": "#ffffff",
+        "corTextoComum": "#ffffff",
+        "corTabelaBorda": "#ffffff",
+        "corTabelaPreenchimento": "#800000",
+        "corCards": "#B30000",
+        "corInfos": "#B30000"
     }
 ]

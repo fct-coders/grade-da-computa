@@ -6,8 +6,11 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["Estrutura de Dados I", "Programação Orientada a Objetos I"],
-        "trancadoPor":[]
+        "tranca": [
+            "Estrutura de Dados I",
+            "Programação Orientada a Objetos I"
+        ],
+        "trancadoPor": []
     },
     {
         "nome": "Lógica",
@@ -16,8 +19,8 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca":[],
-        "trancadoPor":[]
+        "tranca": [],
+        "trancadoPor": []
     },
     {
         "nome": "Matemática Discreta",
@@ -46,7 +49,9 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["Probabilidade e Estatística I"],
+        "tranca": [
+            "Probabilidade e Estatística I"
+        ],
         "trancadoPor": []
     },
     {
@@ -66,7 +71,9 @@
         "semestre": "2",
         "docente": "~",
         "email": "~",
-        "tranca": ["Projeto e Análise de Algoritmos"],
+        "tranca": [
+            "Projeto e Análise de Algoritmos"
+        ],
         "trancadoPor": []
     },
     {
@@ -76,7 +83,9 @@
         "semestre": "2",
         "docente": "~",
         "email": "~",
-        "tranca": ["Projeto Científico I"],
+        "tranca": [
+            "Projeto Científico I"
+        ],
         "trancadoPor": []
     },
     {
@@ -96,7 +105,10 @@
         "semestre": "2",
         "docente": "~",
         "email": "~",
-        "tranca": ["Cálculo Diferencial e Integral III", "Probabilidade e Estatística II"],
+        "tranca": [
+            "Cálculo Diferencial e Integral III",
+            "Probabilidade e Estatística II"
+        ],
         "trancadoPor": []
     },
     {
@@ -116,8 +128,12 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["Banco de Dados"],
-        "trancadoPor":["Estrutura de Dados I"]
+        "tranca": [
+            "Banco de Dados"
+        ],
+        "trancadoPor": [
+            "Estrutura de Dados I"
+        ]
     },
     {
         "nome": "Estrutura de Dados II",
@@ -137,7 +153,9 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor":["Algoritmos e Técnicas de Programação II"]
+        "trancadoPor": [
+            "Algoritmos e Técnicas de Programação II"
+        ]
     },
     {
         "nome": "Cálculo Diferencial e Integral II",
@@ -146,7 +164,10 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["Cálculo Numérico" , "Cálculo Diferencial e Integral IV"],
+        "tranca": [
+            "Cálculo Numérico",
+            "Cálculo Diferencial e Integral IV"
+        ],
         "trancadoPor": []
     },
     {
@@ -216,8 +237,12 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca":["Projeto Científico I"],
-        "trancadoPor": ["Estrutura de Dados 1"]
+        "tranca": [
+            "Projeto Científico I"
+        ],
+        "trancadoPor": [
+            "Estrutura de Dados 1"
+        ]
     },
     {
         "nome": "Computação Gráfica",
@@ -227,7 +252,9 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor": ["Álgebra Linear"]
+        "trancadoPor": [
+            "Álgebra Linear"
+        ]
     },
     {
         "nome": "Arquitetura de Computadores",
@@ -247,9 +274,11 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor": ["Programação Orientada a Objetos II"]
-     },
-     {
+        "trancadoPor": [
+            "Programação Orientada a Objetos II"
+        ]
+    },
+    {
         "nome": "Física Experimental",
         "id": "Fis. Exp",
         "ano": "1",
@@ -260,7 +289,7 @@
         "trancadoPor": []
     },
     {
-      	"nome": "Desenvolvimento Web com Javascript",
+        "nome": "Desenvolvimento Web com Javascript",
         "id": "Javascript",
         "ano": "1",
         "semestre": "2",
@@ -276,8 +305,12 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["Programação Linear"],
-        "trancadoPor": ["Cálculo Diferencial e Integral II"]
+        "tranca": [
+            "Programação Linear"
+        ],
+        "trancadoPor": [
+            "Cálculo Diferencial e Integral II"
+        ]
     },
     {
         "nome": "Cálculo Diferencial e Integral III",
@@ -287,7 +320,9 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor": ["Cálculo Diferencial e Integral I"]
+        "trancadoPor": [
+            "Cálculo Diferencial e Integral I"
+        ]
     },
     {
         "nome": "Programação Orientada a Objetos I",
@@ -296,8 +331,12 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["Engenharia de Software I"],
-        "trancadoPor": ["Algoritmos e Técnicas de Programação I"]
+        "tranca": [
+            "Engenharia de Software I"
+        ],
+        "trancadoPor": [
+            "Algoritmos e Técnicas de Programação I"
+        ]
     },
     {
         "nome": "Algebra Linear",
@@ -306,7 +345,9 @@
         "semestre": "2",
         "docente": "~",
         "email": "~",
-        "tranca": ["Computaçao grafica"],
+        "tranca": [
+            "Computaçao grafica"
+        ],
         "trancadoPor": []
     },
     {
@@ -316,7 +357,9 @@
         "semestre": "2",
         "docente": "~",
         "email": "~",
-        "tranca": ["Engenharia de Software II"],
+        "tranca": [
+            "Engenharia de Software II"
+        ],
         "trancadoPor": []
     },
     {
@@ -337,7 +380,9 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor": ["Cálculo Numérico"]
+        "trancadoPor": [
+            "Cálculo Numérico"
+        ]
     },
     {
         "nome": "Probabilidade e Estatística II",
@@ -347,7 +392,19 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor": ["Cálculo Diferencial e Integral I"]
+        "trancadoPor": [
+            "Cálculo Diferencial e Integral I"
+        ]
+    },
+    {
+        "nome": "Probabilidade e Estatística I",
+        "id": "Proba I",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["Fundamentos da Matemática"]
     },
     {
         "nome": "Interface Homem-Máquina",
@@ -386,7 +443,10 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["Compiladores","Linguagens Formais e Teoria da computação"],
+        "tranca": [
+            "Compiladores",
+            "Linguagens Formais e Teoria da computação"
+        ],
         "trancadoPor": []
     },
     {
@@ -406,14 +466,16 @@
         "semestre": "1",
         "docente": "~",
         "email": "~",
-        "tranca": ["TCC I"],
+        "tranca": [
+            "TCC I"
+        ],
         "trancadoPor": []
     },
     {
         "nome": "Linguagens Formais e Teoria da Computação",
         "id": "LFTC",
         "ano": "3",
-        "semestre": "1",
+        "semestre": "2",
         "docente": "~",
         "email": "~",
         "tranca": [],

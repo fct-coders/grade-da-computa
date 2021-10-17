@@ -118,5 +118,15 @@
         "corTabelaPreenchimento": "#29abe2",
         "corCards": "#2e3192",
         "corInfos": "#662d91"
+    },
+    {
+        "nome": "Vinho",
+        "corFundo": "#800000",
+        "corTextoHeader": "#ffffff",
+        "corTextoComum": "#ffffff",
+        "corTabelaBorda": "#ffffff",
+        "corTabelaPreenchimento": "#800000",
+        "corCards": "#B30000",
+        "corInfos": "#B30000"
     }
 ]

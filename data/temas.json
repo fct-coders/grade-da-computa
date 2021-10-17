@@ -118,5 +118,15 @@
         "corTabelaPreenchimento": "#29abe2",
         "corCards": "#2e3192",
         "corInfos": "#662d91"
+    },
+    {
+        "nome": "Tema Dracula",
+        "corFundo": "#282a36",
+        "corTextoHeader": "#f8f8f2",
+        "corTextoComum": "#f8f8f2",
+        "corTabelaBorda": "#bd93f9",
+        "corTabelaPreenchimento": "#44475a",
+        "corCards": "#282a36",
+        "corInfos": "#6272a4"
     }
 ]

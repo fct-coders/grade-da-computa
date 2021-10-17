@@ -472,15 +472,6 @@
         "trancadoPor": []
     },
     {
-        "nome": "Cálculo Diferencial e Integral IV",
-        "id": "Cálculo IV",
-        "ano": "3",
-        "semestre": "1",
-        "docente": "~",
-        "email": "~",
-        "tranca": [],
-        "trancadoPor": ["Cálculo II"]
-    },
         "nome": "Linguagens Formais e Teoria da Computação",
         "id": "LFTC",
         "ano": "3",
@@ -490,5 +481,4 @@
         "tranca": [],
         "trancadoPor": ["LP"]
     }
-    
 ]

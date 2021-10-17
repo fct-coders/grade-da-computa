@@ -350,6 +350,16 @@
         "trancadoPor": ["Cálculo Diferencial e Integral I"]
     },
     {
+        "nome": "Probabilidade e Estatística I",
+        "id": "Proba I",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["Fundamentos da Matemática"]
+    },
+    {
         "nome": "Interface Homem-Máquina",
         "id": "IHM",
         "ano": "4",

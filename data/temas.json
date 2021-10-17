@@ -39,7 +39,16 @@
         "corCards": "#55a630",
         "corInfos": "#55a630"
     },
-
+    {
+        "nome": "Tema Scary Collor Pallete",
+        "corFundo": "#7c0200",
+        "corTextoHeader": "#03211c",
+        "corTextoComum": "#03211c",
+        "corTabelaBorda": "#03342e",
+        "corTabelaPreenchimento": "#7d9267",
+        "corCards": "#657b50",
+        "corInfos": "#03211c"
+    },
     {
         "nome": "Tema Unesp",
         "corFundo": "#0093DD",
@@ -69,6 +78,45 @@
         "corTabelaPreenchimento": "#f7d93c",
         "corCards": "#a647fc",
         "corInfos": "#b657ff"
+    },
+    {
+        "nome": "Tema Hacktober 2021",
+        "corFundo": "#f4f0e1",
+        "corTextoHeader": "f74700",
+        "corTextoComum": "#eab308",
+        "corTabelaBorda": "#91a88c",
+        "corTabelaPreenchimento": "#2b3531",
+        "corCards": "#f74700",
+        "corInfos": "white"
+    },
+    {
+        "nome": "Tema Comfy Purple",
+        "corFundo": "#504459",
+        "corTextoHeader": "white",
+        "corTextoComum": "white",
+        "corTabelaBorda": "#e69199",
+        "corTabelaPreenchimento": "#D1BEAA",
+        "corCards": "#504459",
+        "corInfos": "#504459"
+    },
+    {
+        "nome": "Tema Azul Turquesa",
+        "corFundo": "#008080",
+        "corTextoHeader": "white",
+        "corTextoComum": "black",
+        "corTabelaBorda": "white",
+        "corTabelaPreenchimento": "#48D1CC",
+        "corCards": "#00FFFF",
+        "corInfos": "#008080"
+    },
+    {
+        "nome": "Tema Horrível",
+        "corFundo": "#ff0000",
+        "corTextoHeader": "#f7931e",
+        "corTextoComum": "#fcee21",
+        "corTabelaBorda": "#39b54a",
+        "corTabelaPreenchimento": "#29abe2",
+        "corCards": "#2e3192",
+        "corInfos": "#662d91"
     }
-
 ]

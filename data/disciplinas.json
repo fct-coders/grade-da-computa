@@ -397,6 +397,16 @@
         ]
     },
     {
+        "nome": "Probabilidade e Estatística I",
+        "id": "Proba I",
+        "ano": "2",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["Fundamentos da Matemática"]
+    },
+    {
         "nome": "Interface Homem-Máquina",
         "id": "IHM",
         "ano": "4",
@@ -440,6 +450,16 @@
         "trancadoPor": []
     },
     {
+        "nome": "Cálculo Diferencial e Integral IV",
+        "id": "Cálculo IV",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["Cálculo Diferencial e Integral II"]
+    },
+    {
         "nome": "Engenharia de Software I",
         "id": "ES I",
         "ano": "3",
@@ -459,9 +479,16 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor": [
-            "Cálculo II"
-        ]
+        "trancadoPor": ["Cálculo II"]
+    },
+        "nome": "Linguagens Formais e Teoria da Computação",
+        "id": "LFTC",
+        "ano": "3",
+        "semestre": "2",
+        "docente": "~",
+        "email": "~",
+        "tranca": [],
+        "trancadoPor": ["LP"]
     }
     
 ]

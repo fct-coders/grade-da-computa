@@ -480,5 +480,15 @@
         "email": "~",
         "tranca": [],
         "trancadoPor": ["LP"]
+    },
+    {
+        "nome": "Redes de Computadores I",
+        "id": "Redes I",
+        "ano": "3",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": ["CDP"],
+        "trancadoPor": []
     }
 ]

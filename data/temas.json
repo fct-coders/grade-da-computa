@@ -138,5 +138,15 @@
         "corTabelaPreenchimento": "#800000",
         "corCards": "#B30000",
         "corInfos": "#B30000"
+    },
+    {      
+        "nome": "Tema Round 6",
+        "corFundo": "#37a18e",
+        "corTextoHeader": "#9341a3",
+        "corTextoComum": "#ffffff",
+        "corTabelaBorda": "#df445c",
+        "corTabelaPreenchimento": "#921f81",
+        "corCards": "#df445c",
+        "corInfos": "#4599b2"
     }
 ]

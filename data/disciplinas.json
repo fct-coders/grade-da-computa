@@ -500,5 +500,15 @@
         "email": "~",
         "tranca": [],
         "trancadoPor": ["Redes de Computadores I"]
+    },
+    {
+        "nome": "Projeto Científico II",
+        "id": "Proj. Científico II",
+        "ano": "4",
+        "semestre": "1",
+        "docente": "~",
+        "email": "~",
+        "tranca": ["TCC"],
+        "trancadoPor": ["Projeto Científico I"]
     }
 ]

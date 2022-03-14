@@ -107,3 +107,14 @@ footer a:visited, a {
     margin-top: 4rem;
   }
 }
+
+.warning {
+  background-color: #ffb3b3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff0000;
+}

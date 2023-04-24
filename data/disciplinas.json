@@ -490,7 +490,7 @@
         "email": "~",
         "tranca": ["CDP"],
         "trancadoPor": []
-    },
+    }, 
     {
         "nome": "Computação Distribuída e Paralela",
         "id": "CDP",
@@ -499,6 +499,6 @@
         "docente": "~",
         "email": "~",
         "tranca": [],
-        "trancadoPor": ["Redes de Computadores I"]
+        "trancadoPor": ["Redes I"]
     }
 ]

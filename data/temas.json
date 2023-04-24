@@ -138,5 +138,15 @@
         "corTabelaPreenchimento": "#800000",
         "corCards": "#B30000",
         "corInfos": "#B30000"
+    },
+    {      
+        "nome": "Edgy",
+        "corFundo": "#000000",
+        "corTextoHeader": "#ffffff",
+        "corTextoComum": "#ffffff",
+        "corTabelaBorda": "#950101",
+        "corTabelaPreenchimento": "#FF0000",
+        "corCards": "#3D0000",
+        "corInfos": "#3D0000"
     }
 ]

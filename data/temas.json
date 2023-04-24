@@ -138,5 +138,15 @@
         "corTabelaPreenchimento": "#800000",
         "corCards": "#B30000",
         "corInfos": "#B30000"
+    },
+    {
+        "nome": "Tema Preto e Branco",
+        "corFundo": "#000000",
+        "corTextoHeader": "#808080",
+        "corTextoComum": "#808080",
+        "corTabelaBorda": "#ffffff",
+        "corTabelaPreenchimento": "#000000",
+        "corCards": "#ffffff",
+        "corInfos": "#ffffff"
     }
 ]
